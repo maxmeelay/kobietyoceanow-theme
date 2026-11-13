@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:32:34+00:00",
+    "generated_at": "2026-11-13T07:32:41+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -575,6 +575,17 @@
             "post_title": "Aktualno\u015bci",
             "post_type": "wp_block",
             "slug": "aktualnosci"
+        },
+        "871": {
+            "content_path": "wp_block/871.md",
+            "last_synced_at": "2026-11-13T07:32:41+00:00",
+            "meta_path": "wp_block/871.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/partnerzy/",
+            "post_id": 871,
+            "post_path": "wp_block/871.json",
+            "post_title": "Partnerzy",
+            "post_type": "wp_block",
+            "slug": "partnerzy"
         },
         "1001": {
             "content_path": "member/1001.md",
