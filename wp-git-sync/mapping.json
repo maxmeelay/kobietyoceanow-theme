@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:30:25+00:00",
+    "generated_at": "2026-11-13T07:30:32+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -751,6 +751,17 @@
             "post_title": "Testy Spinakera",
             "post_type": "post",
             "slug": "testy-spinakera"
+        },
+        "1359": {
+            "content_path": "post/1359.md",
+            "last_synced_at": "2026-11-13T07:30:32+00:00",
+            "meta_path": "post/1359.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/?p=1359",
+            "post_id": 1359,
+            "post_path": "post/1359.json",
+            "post_title": "Rejs kobiecy po Wyspach Liparyjskich",
+            "post_type": "post",
+            "slug": "1359"
         }
     },
     "version": "0.1.2"
