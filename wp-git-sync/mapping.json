@@ -1,9 +1,20 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:23:47+00:00",
+    "generated_at": "2026-11-13T07:23:54+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
+        "2": {
+            "content_path": "page/2.md",
+            "last_synced_at": "2026-11-13T07:23:54+00:00",
+            "meta_path": "page/2.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/",
+            "post_id": 2,
+            "post_path": "page/2.json",
+            "post_title": "Strona g\u0142\u00f3wna",
+            "post_type": "page",
+            "slug": "sample-page"
+        },
         "4": {
             "content_path": "wp_navigation/4.md",
             "last_synced_at": "2026-11-13T07:22:57+00:00",
