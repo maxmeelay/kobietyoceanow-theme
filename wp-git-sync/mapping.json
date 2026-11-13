@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:17+00:00",
+    "generated_at": "2026-11-13T07:31:24+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -828,6 +828,17 @@
             "post_title": "Znowu na wodzie",
             "post_type": "post",
             "slug": "znowu-na-wodzie"
+        },
+        "1407": {
+            "content_path": "post/1407.md",
+            "last_synced_at": "2026-11-13T07:31:24+00:00",
+            "meta_path": "post/1407.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/?p=1407",
+            "post_id": 1407,
+            "post_path": "post/1407.json",
+            "post_title": "Rejs po Wyspach Liparyjskich",
+            "post_type": "post",
+            "slug": "1407"
         }
     },
     "version": "0.1.2"
