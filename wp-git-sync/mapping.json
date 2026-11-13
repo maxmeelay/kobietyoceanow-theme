@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:29:36+00:00",
+    "generated_at": "2026-11-13T07:29:43+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -487,6 +487,17 @@
             "post_title": "Pozdrowienia z Ostr\u00f3dy",
             "post_type": "post",
             "slug": "pozdrowienia-z-ostrody"
+        },
+        "778": {
+            "content_path": "post/778.md",
+            "last_synced_at": "2026-11-13T07:29:43+00:00",
+            "meta_path": "post/778.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/za-kulisami/",
+            "post_id": 778,
+            "post_path": "post/778.json",
+            "post_title": "Za kulisami",
+            "post_type": "post",
+            "slug": "za-kulisami"
         },
         "1001": {
             "content_path": "member/1001.md",
