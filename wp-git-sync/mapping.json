@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:17+00:00",
+    "generated_at": "2026-11-13T07:28:24+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -256,6 +256,17 @@
             "post_title": "Kolejne inspiruj\u0105ce spotkanie",
             "post_type": "post",
             "slug": "kolejne-inspirujace-spotkanie"
+        },
+        "422": {
+            "content_path": "post/422.md",
+            "last_synced_at": "2026-11-13T07:28:24+00:00",
+            "meta_path": "post/422.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/zostawily-kwiaty-i-zapalily-swieczke/",
+            "post_id": 422,
+            "post_path": "post/422.json",
+            "post_title": "Zostawi\u0142y kwiaty i zapali\u0142y \u015bwieczk\u0119",
+            "post_type": "post",
+            "slug": "zostawily-kwiaty-i-zapalily-swieczke"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
