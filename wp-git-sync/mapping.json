@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:29:08+00:00",
+    "generated_at": "2026-11-13T07:29:15+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -443,6 +443,17 @@
             "post_title": "Baltic Solo Challenge",
             "post_type": "post",
             "slug": "baltic-solo-challenge"
+        },
+        "764": {
+            "content_path": "post/764.md",
+            "last_synced_at": "2026-11-13T07:29:15+00:00",
+            "meta_path": "post/764.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/drugi-rejs-bonawentura-po-zatoce-gdanskiej/",
+            "post_id": 764,
+            "post_path": "post/764.json",
+            "post_title": "Drugi rejs Bonawentur\u0105 po Zatoce Gda\u0144skiej",
+            "post_type": "post",
+            "slug": "drugi-rejs-bonawentura-po-zatoce-gdanskiej"
         },
         "1001": {
             "content_path": "member/1001.md",
