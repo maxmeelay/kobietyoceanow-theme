@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:42+00:00",
+    "generated_at": "2026-11-13T07:27:48+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -201,6 +201,17 @@
             "post_title": "W ko\u0144cu na wodzie",
             "post_type": "post",
             "slug": "w-koncu-na-wodzie"
+        },
+        "402": {
+            "content_path": "post/402.md",
+            "last_synced_at": "2026-11-13T07:27:48+00:00",
+            "meta_path": "post/402.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/jej-odwaga-to-nasz-fundament/",
+            "post_id": 402,
+            "post_path": "post/402.json",
+            "post_title": "Jej odwaga to nasz fundament",
+            "post_type": "post",
+            "slug": "jej-odwaga-to-nasz-fundament"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
