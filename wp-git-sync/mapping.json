@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:24:38+00:00",
+    "generated_at": "2026-11-13T07:24:46+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -168,6 +168,17 @@
             "post_title": "Bloki Preview z Lovable",
             "post_type": "page",
             "slug": "bloki-preview-z-lovable"
+        },
+        "547": {
+            "content_path": "page/547.md",
+            "last_synced_at": "2026-11-13T07:24:46+00:00",
+            "meta_path": "page/547.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/dziennik/",
+            "post_id": 547,
+            "post_path": "page/547.json",
+            "post_title": "Dziennik",
+            "post_type": "page",
+            "slug": "dziennik"
         },
         "1001": {
             "content_path": "member/1001.md",
