@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:29:22+00:00",
+    "generated_at": "2026-11-13T07:29:29+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -465,6 +465,17 @@
             "post_title": "Widok z g\u00f3ry",
             "post_type": "post",
             "slug": "widok-z-gory"
+        },
+        "770": {
+            "content_path": "post/770.md",
+            "last_synced_at": "2026-11-13T07:29:29+00:00",
+            "meta_path": "post/770.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/coraz-nas-wiecej/",
+            "post_id": 770,
+            "post_path": "post/770.json",
+            "post_title": "Coraz nas wi\u0119cej",
+            "post_type": "post",
+            "slug": "coraz-nas-wiecej"
         },
         "1001": {
             "content_path": "member/1001.md",
