@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:26:37+00:00",
+    "generated_at": "2026-11-13T07:26:45+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -102,6 +102,17 @@
             "post_title": "Dziewczyny szukaj\u0105 jachtu",
             "post_type": "post",
             "slug": "dziewczyny-szukaja-jachtu"
+        },
+        "374": {
+            "content_path": "post/374.md",
+            "last_synced_at": "2026-11-13T07:26:45+00:00",
+            "meta_path": "post/374.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/mazurek-na-oceanie-my-zapatrzone-w-historie/",
+            "post_id": 374,
+            "post_path": "post/374.json",
+            "post_title": "\u201eMazurek\u201d na oceanie - my zapatrzone w histori\u0119",
+            "post_type": "post",
+            "slug": "mazurek-na-oceanie-my-zapatrzone-w-historie"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
