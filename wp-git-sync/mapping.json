@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:23:54+00:00",
+    "generated_at": "2026-11-13T07:24:01+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -14,6 +14,17 @@
             "post_title": "Strona g\u0142\u00f3wna",
             "post_type": "page",
             "slug": "sample-page"
+        },
+        "3": {
+            "content_path": "page/3.md",
+            "last_synced_at": "2026-11-13T07:24:01+00:00",
+            "meta_path": "page/3.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/polityka-prywatnosci/",
+            "post_id": 3,
+            "post_path": "page/3.json",
+            "post_title": "Polityka prywatno\u015bci Fundacji Kobiety Ocean\u00f3w im. Krystyny Chojnowskiej\u2011Liskiewicz",
+            "post_type": "page",
+            "slug": "polityka-prywatnosci"
         },
         "4": {
             "content_path": "wp_navigation/4.md",
