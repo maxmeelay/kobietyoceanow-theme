@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:48+00:00",
+    "generated_at": "2026-11-13T07:31:55+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -509,6 +509,17 @@
             "post_title": "Do\u0142\u0105cz",
             "post_type": "wp_block",
             "slug": "dolacz"
+        },
+        "825": {
+            "content_path": "wp_block/825.md",
+            "last_synced_at": "2026-11-13T07:31:55+00:00",
+            "meta_path": "wp_block/825.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/wesprzyj/",
+            "post_id": 825,
+            "post_path": "wp_block/825.json",
+            "post_title": "Wesprzyj",
+            "post_type": "wp_block",
+            "slug": "wesprzyj"
         },
         "1001": {
             "content_path": "member/1001.md",
