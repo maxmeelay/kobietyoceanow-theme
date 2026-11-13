@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:24:29+00:00",
+    "generated_at": "2026-11-13T07:24:38+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -157,6 +157,17 @@
             "post_title": "Aktualno\u015bci",
             "post_type": "page",
             "slug": "aktualnosci"
+        },
+        "530": {
+            "content_path": "page/530.md",
+            "last_synced_at": "2026-11-13T07:24:38+00:00",
+            "meta_path": "page/530.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/bloki-preview-z-lovable/",
+            "post_id": 530,
+            "post_path": "page/530.json",
+            "post_title": "Bloki Preview z Lovable",
+            "post_type": "page",
+            "slug": "bloki-preview-z-lovable"
         },
         "1001": {
             "content_path": "member/1001.md",
