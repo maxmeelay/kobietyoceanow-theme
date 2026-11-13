@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:21:40+00:00",
+    "generated_at": "2026-11-13T07:21:47+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -25,6 +25,17 @@
             "post_title": "Gabriela Brz\u00f3ska-Murach",
             "post_type": "member",
             "slug": "gabriela-brzoska-murach"
+        },
+        "1008": {
+            "content_path": "member/1008.md",
+            "last_synced_at": "2026-11-13T07:21:47+00:00",
+            "meta_path": "member/1008.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/member/malgorzata-jaskot/",
+            "post_id": 1008,
+            "post_path": "member/1008.json",
+            "post_title": "Ma\u0142gorzata Jaskot",
+            "post_type": "member",
+            "slug": "malgorzata-jaskot"
         },
         "1030": {
             "content_path": "member/1030.md",
