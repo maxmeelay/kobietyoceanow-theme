@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:14+00:00",
+    "generated_at": "2026-11-13T07:27:21+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -157,6 +157,17 @@
             "post_title": "Poznajemy Krystyn\u0119 \u2014 polsk\u0105 re\u017cyserk\u0119 filmow\u0105",
             "post_type": "post",
             "slug": "poznajemy-krystyne-polska-rezyserke-filmowa"
+        },
+        "390": {
+            "content_path": "post/390.md",
+            "last_synced_at": "2026-11-13T07:27:21+00:00",
+            "meta_path": "post/390.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/spotkanie-na-eginie-miedzynarodowa-rodzina-oceanow/",
+            "post_id": 390,
+            "post_path": "post/390.json",
+            "post_title": "Spotkanie na Eginie \u2014 mi\u0119dzynarodowa rodzina ocean\u00f3w",
+            "post_type": "post",
+            "slug": "spotkanie-na-eginie-miedzynarodowa-rodzina-oceanow"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
