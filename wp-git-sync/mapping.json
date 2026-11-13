@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:24:22+00:00",
+    "generated_at": "2026-11-13T07:24:29+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -146,6 +146,17 @@
             "post_title": "Gabriela Brz\u00f3ska-Murach",
             "post_type": "member",
             "slug": "gabriela-brzoska-murach"
+        },
+        "511": {
+            "content_path": "page/511.md",
+            "last_synced_at": "2026-11-13T07:24:29+00:00",
+            "meta_path": "page/511.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/aktualnosci/",
+            "post_id": 511,
+            "post_path": "page/511.json",
+            "post_title": "Aktualno\u015bci",
+            "post_type": "page",
+            "slug": "aktualnosci"
         },
         "1001": {
             "content_path": "member/1001.md",
