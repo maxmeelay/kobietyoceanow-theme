@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:24:59+00:00",
+    "generated_at": "2026-11-13T07:25:07+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -344,6 +344,17 @@
             "post_title": "Statut",
             "post_type": "page",
             "slug": "statut"
+        },
+        "1276": {
+            "content_path": "page/1276.md",
+            "last_synced_at": "2026-11-13T07:25:07+00:00",
+            "meta_path": "page/1276.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/rejs/",
+            "post_id": 1276,
+            "post_path": "page/1276.json",
+            "post_title": "Rejs 2028 - 2030",
+            "post_type": "page",
+            "slug": "rejs"
         }
     },
     "version": "0.1.2"
