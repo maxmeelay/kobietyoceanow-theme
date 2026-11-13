@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:32:18+00:00",
+    "generated_at": "2026-11-13T07:32:26+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -553,6 +553,17 @@
             "post_title": "About",
             "post_type": "wp_block",
             "slug": "about"
+        },
+        "869": {
+            "content_path": "wp_block/869.md",
+            "last_synced_at": "2026-11-13T07:32:26+00:00",
+            "meta_path": "wp_block/869.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/rejs/",
+            "post_id": 869,
+            "post_path": "wp_block/869.json",
+            "post_title": "Rejs",
+            "post_type": "wp_block",
+            "slug": "rejs"
         },
         "1001": {
             "content_path": "member/1001.md",
