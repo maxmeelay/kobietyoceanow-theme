@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:24:52+00:00",
+    "generated_at": "2026-11-13T07:24:59+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -333,6 +333,17 @@
             "post_title": "Adrian Zubrzycki",
             "post_type": "member",
             "slug": "adrian-zubrzycki"
+        },
+        "1175": {
+            "content_path": "page/1175.md",
+            "last_synced_at": "2026-11-13T07:24:59+00:00",
+            "meta_path": "page/1175.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/statut/",
+            "post_id": 1175,
+            "post_path": "page/1175.json",
+            "post_title": "Statut",
+            "post_type": "page",
+            "slug": "statut"
         }
     },
     "version": "0.1.2"
