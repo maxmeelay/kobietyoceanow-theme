@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:24:08+00:00",
+    "generated_at": "2026-11-13T07:24:15+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -47,6 +47,17 @@
             "post_title": "Blog",
             "post_type": "page",
             "slug": "blog"
+        },
+        "201": {
+            "content_path": "page/201.md",
+            "last_synced_at": "2026-11-13T07:24:15+00:00",
+            "meta_path": "page/201.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/kontakt/",
+            "post_id": 201,
+            "post_path": "page/201.json",
+            "post_title": "Kontakt",
+            "post_type": "page",
+            "slug": "kontakt"
         },
         "311": {
             "content_path": "member/311.md",
