@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:35+00:00",
+    "generated_at": "2026-11-13T07:27:42+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -190,6 +190,17 @@
             "post_title": "To nie s\u0105 przelewki",
             "post_type": "post",
             "slug": "to-nie-sa-przelewki"
+        },
+        "399": {
+            "content_path": "post/399.md",
+            "last_synced_at": "2026-11-13T07:27:42+00:00",
+            "meta_path": "post/399.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/w-koncu-na-wodzie/",
+            "post_id": 399,
+            "post_path": "post/399.json",
+            "post_title": "W ko\u0144cu na wodzie",
+            "post_type": "post",
+            "slug": "w-koncu-na-wodzie"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
