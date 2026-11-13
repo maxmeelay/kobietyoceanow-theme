@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:29:50+00:00",
+    "generated_at": "2026-11-13T07:29:56+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -663,6 +663,17 @@
             "post_title": "Statut",
             "post_type": "page",
             "slug": "statut"
+        },
+        "1268": {
+            "content_path": "post/1268.md",
+            "last_synced_at": "2026-11-13T07:29:56+00:00",
+            "meta_path": "post/1268.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/rejs-po-wyspach-kanaryjskich/",
+            "post_id": 1268,
+            "post_path": "post/1268.json",
+            "post_title": "Rejs po Wyspach Kanaryjskich",
+            "post_type": "post",
+            "slug": "rejs-po-wyspach-kanaryjskich"
         },
         "1276": {
             "content_path": "page/1276.md",
