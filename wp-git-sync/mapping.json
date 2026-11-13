@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:32:02+00:00",
+    "generated_at": "2026-11-13T07:32:10+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -531,6 +531,17 @@
             "post_title": "Kontakt",
             "post_type": "wp_block",
             "slug": "kontakt"
+        },
+        "839": {
+            "content_path": "wp_block/839.md",
+            "last_synced_at": "2026-11-13T07:32:10+00:00",
+            "meta_path": "wp_block/839.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/o-nas/",
+            "post_id": 839,
+            "post_path": "wp_block/839.json",
+            "post_title": "O Nas",
+            "post_type": "wp_block",
+            "slug": "o-nas"
         },
         "1001": {
             "content_path": "member/1001.md",
