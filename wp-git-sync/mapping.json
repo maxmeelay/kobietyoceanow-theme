@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:24+00:00",
+    "generated_at": "2026-11-13T07:31:32+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -839,6 +839,17 @@
             "post_title": "Rejs po Wyspach Liparyjskich",
             "post_type": "post",
             "slug": "1407"
+        },
+        "1420": {
+            "content_path": "post/1420.md",
+            "last_synced_at": "2026-11-13T07:31:32+00:00",
+            "meta_path": "post/1420.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/zapraszamy-do-radia-szczecin-25-10-2026-g-1800/",
+            "post_id": 1420,
+            "post_path": "post/1420.json",
+            "post_title": "Zapraszamy do Radia Szczecin 25.10.2026 g. 18:00",
+            "post_type": "post",
+            "slug": "zapraszamy-do-radia-szczecin-25-10-2026-g-1800"
         }
     },
     "version": "0.1.2"
