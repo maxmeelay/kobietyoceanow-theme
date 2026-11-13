@@ -1,9 +1,20 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:26:22+00:00",
+    "generated_at": "2026-11-13T07:26:30+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
+        "1": {
+            "content_path": "post/1.md",
+            "last_synced_at": "2026-11-13T07:26:30+00:00",
+            "meta_path": "post/1.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/spotkanie-z-kapitanem-waclawem-liskiewiczem/",
+            "post_id": 1,
+            "post_path": "post/1.json",
+            "post_title": "Spotkanie z Kapitanem Wac\u0142awem Liskiewiczem",
+            "post_type": "post",
+            "slug": "spotkanie-z-kapitanem-waclawem-liskiewiczem"
+        },
         "2": {
             "content_path": "page/2.md",
             "last_synced_at": "2026-11-13T07:23:54+00:00",
