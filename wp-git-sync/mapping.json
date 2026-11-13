@@ -1,9 +1,20 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:22:50+00:00",
+    "generated_at": "2026-11-13T07:22:57+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
+        "4": {
+            "content_path": "wp_navigation/4.md",
+            "last_synced_at": "2026-11-13T07:22:57+00:00",
+            "meta_path": "wp_navigation/4.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/navigation/",
+            "post_id": 4,
+            "post_path": "wp_navigation/4.json",
+            "post_title": "Nawigacja",
+            "post_type": "wp_navigation",
+            "slug": "navigation"
+        },
         "311": {
             "content_path": "member/311.md",
             "last_synced_at": "2026-11-13T07:21:33+00:00",
