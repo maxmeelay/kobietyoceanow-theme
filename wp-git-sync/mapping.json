@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:22:01+00:00",
+    "generated_at": "2026-11-13T07:22:08+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -58,6 +58,17 @@
             "post_title": "Aleksandra Gill",
             "post_type": "member",
             "slug": "aleksandra-gill"
+        },
+        "1025": {
+            "content_path": "member/1025.md",
+            "last_synced_at": "2026-11-13T07:22:08+00:00",
+            "meta_path": "member/1025.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/member/iwona-olszacka/",
+            "post_id": 1025,
+            "post_path": "member/1025.json",
+            "post_title": "Iwona Olszacka",
+            "post_type": "member",
+            "slug": "iwona-olszacka"
         },
         "1030": {
             "content_path": "member/1030.md",
