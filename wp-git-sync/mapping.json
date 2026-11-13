@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:55+00:00",
+    "generated_at": "2026-11-13T07:28:02+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -223,6 +223,17 @@
             "post_title": "Wspiera\u0142 Krystyn\u0119, a teraz wspiera nas",
             "post_type": "post",
             "slug": "wspieral-krystyne-a-teraz-wspiera-nas"
+        },
+        "409": {
+            "content_path": "post/409.md",
+            "last_synced_at": "2026-11-13T07:28:02+00:00",
+            "meta_path": "post/409.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/zapraszamy-ja-poklad-s-y-bonawentury/",
+            "post_id": 409,
+            "post_path": "post/409.json",
+            "post_title": "Zapraszamy na pok\u0142ad s/y \"Bonawentura\"",
+            "post_type": "post",
+            "slug": "zapraszamy-ja-poklad-s-y-bonawentury"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
