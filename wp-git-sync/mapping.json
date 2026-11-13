@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:29:15+00:00",
+    "generated_at": "2026-11-13T07:29:22+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -454,6 +454,17 @@
             "post_title": "Drugi rejs Bonawentur\u0105 po Zatoce Gda\u0144skiej",
             "post_type": "post",
             "slug": "drugi-rejs-bonawentura-po-zatoce-gdanskiej"
+        },
+        "767": {
+            "content_path": "post/767.md",
+            "last_synced_at": "2026-11-13T07:29:22+00:00",
+            "meta_path": "post/767.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/widok-z-gory/",
+            "post_id": 767,
+            "post_path": "post/767.json",
+            "post_title": "Widok z g\u00f3ry",
+            "post_type": "post",
+            "slug": "widok-z-gory"
         },
         "1001": {
             "content_path": "member/1001.md",
