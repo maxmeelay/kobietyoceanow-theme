@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:23:26+00:00",
+    "generated_at": "2026-11-13T07:23:33+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -69,6 +69,17 @@
             "post_title": "Aleksandra Janas",
             "post_type": "osoba-z-nami",
             "slug": "aleksandra-janas"
+        },
+        "437": {
+            "content_path": "osoba-z-nami/437.md",
+            "last_synced_at": "2026-11-13T07:23:33+00:00",
+            "meta_path": "osoba-z-nami/437.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/osoba-z-nami/anna-mulica/",
+            "post_id": 437,
+            "post_path": "osoba-z-nami/437.json",
+            "post_title": "Anna Mulica",
+            "post_type": "osoba-z-nami",
+            "slug": "anna-mulica"
         },
         "445": {
             "content_path": "member/445.md",
