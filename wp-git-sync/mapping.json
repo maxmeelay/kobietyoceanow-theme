@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:30:32+00:00",
+    "generated_at": "2026-11-13T07:30:39+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -762,6 +762,17 @@
             "post_title": "Rejs kobiecy po Wyspach Liparyjskich",
             "post_type": "post",
             "slug": "1359"
+        },
+        "1376": {
+            "content_path": "post/1376.md",
+            "last_synced_at": "2026-11-13T07:30:39+00:00",
+            "meta_path": "post/1376.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/w-ostrodzie/",
+            "post_id": 1376,
+            "post_path": "post/1376.json",
+            "post_title": "W Ostr\u00f3dzie",
+            "post_type": "post",
+            "slug": "w-ostrodzie"
         }
     },
     "version": "0.1.2"
