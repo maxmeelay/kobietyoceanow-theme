@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:30:54+00:00",
+    "generated_at": "2026-11-13T07:31:01+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -795,6 +795,17 @@
             "post_title": "Pozdrowienia z Polinezji",
             "post_type": "post",
             "slug": "pozdrowienia-z-polinezji"
+        },
+        "1387": {
+            "content_path": "post/1387.md",
+            "last_synced_at": "2026-11-13T07:31:01+00:00",
+            "meta_path": "post/1387.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/prochno-i-rdza/",
+            "post_id": 1387,
+            "post_path": "post/1387.json",
+            "post_title": "XVIII Zlot Jacht\u00f3w z Dusz\u0105 \u201ePr\u00f3chno i Rdza\u201d",
+            "post_type": "post",
+            "slug": "prochno-i-rdza"
         }
     },
     "version": "0.1.2"
