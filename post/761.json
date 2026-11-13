@@ -1,0 +1,33 @@
+{
+    "ID": 761,
+    "ancestors": [],
+    "comment_count": "0",
+    "comment_status": "open",
+    "filter": "raw",
+    "guid": "https://www.kobietyoceanow.pl/?p=761",
+    "menu_order": 0,
+    "page_template": "",
+    "ping_status": "open",
+    "pinged": "",
+    "post_author": "4",
+    "post_category": [
+        1,
+        8,
+        6
+    ],
+    "post_content_filtered": "",
+    "post_date": "2026-07-07 10:46:58",
+    "post_date_gmt": "2026-07-07 10:46:58",
+    "post_excerpt": "",
+    "post_mime_type": "",
+    "post_modified": "2026-08-11 10:57:32",
+    "post_modified_gmt": "2026-08-11 10:57:32",
+    "post_name": "baltic-solo-challenge",
+    "post_parent": 0,
+    "post_password": "",
+    "post_status": "publish",
+    "post_title": "Baltic Solo Challenge",
+    "post_type": "post",
+    "tags_input": [],
+    "to_ping": ""
+}

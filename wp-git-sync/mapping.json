@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:29:01+00:00",
+    "generated_at": "2026-11-13T07:29:08+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -432,6 +432,17 @@
             "post_title": "Pierwszy \"fundacyjny\" rejs \"Bonawentur\u0105\" po Zatoce Gda\u0144skiej",
             "post_type": "post",
             "slug": "pierwszy-fundacyjny-rejs-bonawentura-po-zatoce-gdanskiej"
+        },
+        "761": {
+            "content_path": "post/761.md",
+            "last_synced_at": "2026-11-13T07:29:08+00:00",
+            "meta_path": "post/761.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/baltic-solo-challenge/",
+            "post_id": 761,
+            "post_path": "post/761.json",
+            "post_title": "Baltic Solo Challenge",
+            "post_type": "post",
+            "slug": "baltic-solo-challenge"
         },
         "1001": {
             "content_path": "member/1001.md",
