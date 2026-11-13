@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:01+00:00",
+    "generated_at": "2026-11-13T07:31:09+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -806,6 +806,17 @@
             "post_title": "XVIII Zlot Jacht\u00f3w z Dusz\u0105 \u201ePr\u00f3chno i Rdza\u201d",
             "post_type": "post",
             "slug": "prochno-i-rdza"
+        },
+        "1390": {
+            "content_path": "post/1390.md",
+            "last_synced_at": "2026-11-13T07:31:09+00:00",
+            "meta_path": "post/1390.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/mechatkiem-po-zatoce/",
+            "post_id": 1390,
+            "post_path": "post/1390.json",
+            "post_title": "\u201eMechatkiem II\u201d po Zatoce",
+            "post_type": "post",
+            "slug": "mechatkiem-po-zatoce"
         }
     },
     "version": "0.1.2"
