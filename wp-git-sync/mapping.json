@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:26:14+00:00",
+    "generated_at": "2026-11-13T07:26:22+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -366,6 +366,17 @@
             "post_title": "Do\u0142acz lub wesprzyj",
             "post_type": "page",
             "slug": "dolacz-lub-wesprzyj"
+        },
+        "1312": {
+            "content_path": "page/1312.md",
+            "last_synced_at": "2026-11-13T07:26:22+00:00",
+            "meta_path": "page/1312.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/partnerzy/",
+            "post_id": 1312,
+            "post_path": "page/1312.json",
+            "post_title": "Partnerzy",
+            "post_type": "page",
+            "slug": "partnerzy"
         }
     },
     "version": "0.1.2"
