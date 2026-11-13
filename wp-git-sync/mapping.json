@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:09+00:00",
+    "generated_at": "2026-11-13T07:31:17+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -817,6 +817,17 @@
             "post_title": "\u201eMechatkiem II\u201d po Zatoce",
             "post_type": "post",
             "slug": "mechatkiem-po-zatoce"
+        },
+        "1398": {
+            "content_path": "post/1398.md",
+            "last_synced_at": "2026-11-13T07:31:17+00:00",
+            "meta_path": "post/1398.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/znowu-na-wodzie/",
+            "post_id": 1398,
+            "post_path": "post/1398.json",
+            "post_title": "Znowu na wodzie",
+            "post_type": "post",
+            "slug": "znowu-na-wodzie"
         }
     },
     "version": "0.1.2"
