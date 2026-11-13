@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:22:22+00:00",
+    "generated_at": "2026-11-13T07:22:29+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -102,6 +102,17 @@
             "post_title": "Wac\u0142aw Liskiewicz",
             "post_type": "member",
             "slug": "waclaw-liskiewicz"
+        },
+        "1052": {
+            "content_path": "member/1052.md",
+            "last_synced_at": "2026-11-13T07:22:29+00:00",
+            "meta_path": "member/1052.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/member/majawierzbicka-mroz/",
+            "post_id": 1052,
+            "post_path": "member/1052.json",
+            "post_title": "Maja Wierzbicka-Mr\u00f3z",
+            "post_type": "member",
+            "slug": "majawierzbicka-mroz"
         }
     },
     "version": "0.1.2"
