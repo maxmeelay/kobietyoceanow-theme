@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:21+00:00",
+    "generated_at": "2026-11-13T07:27:28+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -168,6 +168,17 @@
             "post_title": "Spotkanie na Eginie \u2014 mi\u0119dzynarodowa rodzina ocean\u00f3w",
             "post_type": "post",
             "slug": "spotkanie-na-eginie-miedzynarodowa-rodzina-oceanow"
+        },
+        "393": {
+            "content_path": "post/393.md",
+            "last_synced_at": "2026-11-13T07:27:28+00:00",
+            "meta_path": "post/393.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/rosniemy-w-sily/",
+            "post_id": 393,
+            "post_path": "post/393.json",
+            "post_title": "Ro\u015bniemy w si\u0142y!",
+            "post_type": "post",
+            "slug": "rosniemy-w-sily"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
