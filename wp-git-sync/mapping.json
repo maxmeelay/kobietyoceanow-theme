@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:54+00:00",
+    "generated_at": "2026-11-13T07:29:01+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -421,6 +421,17 @@
             "post_title": "Nie sam\u0105 \u017ceglug\u0105 cz\u0142owiek \u017cyje",
             "post_type": "post",
             "slug": "nie-sama-zegluga-czlowiek-zyje"
+        },
+        "691": {
+            "content_path": "post/691.md",
+            "last_synced_at": "2026-11-13T07:29:01+00:00",
+            "meta_path": "post/691.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/pierwszy-fundacyjny-rejs-bonawentura-po-zatoce-gdanskiej/",
+            "post_id": 691,
+            "post_path": "post/691.json",
+            "post_title": "Pierwszy \"fundacyjny\" rejs \"Bonawentur\u0105\" po Zatoce Gda\u0144skiej",
+            "post_type": "post",
+            "slug": "pierwszy-fundacyjny-rejs-bonawentura-po-zatoce-gdanskiej"
         },
         "1001": {
             "content_path": "member/1001.md",
