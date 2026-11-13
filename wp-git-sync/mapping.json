@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:40+00:00",
+    "generated_at": "2026-11-13T07:31:48+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -498,6 +498,17 @@
             "post_title": "Za kulisami",
             "post_type": "post",
             "slug": "za-kulisami"
+        },
+        "791": {
+            "content_path": "wp_block/791.md",
+            "last_synced_at": "2026-11-13T07:31:48+00:00",
+            "meta_path": "wp_block/791.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/dolacz/",
+            "post_id": 791,
+            "post_path": "wp_block/791.json",
+            "post_title": "Do\u0142\u0105cz",
+            "post_type": "wp_block",
+            "slug": "dolacz"
         },
         "1001": {
             "content_path": "member/1001.md",
