@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:26:45+00:00",
+    "generated_at": "2026-11-13T07:26:52+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -113,6 +113,17 @@
             "post_title": "\u201eMazurek\u201d na oceanie - my zapatrzone w histori\u0119",
             "post_type": "post",
             "slug": "mazurek-na-oceanie-my-zapatrzone-w-historie"
+        },
+        "377": {
+            "content_path": "post/377.md",
+            "last_synced_at": "2026-11-13T07:26:52+00:00",
+            "meta_path": "post/377.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/na-ogrodku-u-iwonki-planowanie-podrozy-marzen/",
+            "post_id": 377,
+            "post_path": "post/377.json",
+            "post_title": "Na ogr\u00f3dku u Iwonki \u2014 planowanie podr\u00f3\u017cy marze\u0144",
+            "post_type": "post",
+            "slug": "na-ogrodku-u-iwonki-planowanie-podrozy-marzen"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
