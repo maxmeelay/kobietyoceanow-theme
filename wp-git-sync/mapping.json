@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:21:54+00:00",
+    "generated_at": "2026-11-13T07:22:01+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -36,6 +36,17 @@
             "post_title": "Ma\u0142gorzata Jaskot",
             "post_type": "member",
             "slug": "malgorzata-jaskot"
+        },
+        "1017": {
+            "content_path": "member/1017.md",
+            "last_synced_at": "2026-11-13T07:22:01+00:00",
+            "meta_path": "member/1017.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/member/karolina-beiger/",
+            "post_id": 1017,
+            "post_path": "member/1017.json",
+            "post_title": "Karolina Beiger",
+            "post_type": "member",
+            "slug": "karolina-beiger"
         },
         "1023": {
             "content_path": "member/1023.md",
