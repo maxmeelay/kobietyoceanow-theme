@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:22:57+00:00",
+    "generated_at": "2026-11-13T07:23:04+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -25,6 +25,17 @@
             "post_title": "Ma\u0142gorzata Talar-Rybicka",
             "post_type": "member",
             "slug": "malgorzata-talar-rybicka"
+        },
+        "429": {
+            "content_path": "osoba-z-nami/429.md",
+            "last_synced_at": "2026-11-13T07:23:04+00:00",
+            "meta_path": "osoba-z-nami/429.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/osoba-z-nami/magdalena-klesinska/",
+            "post_id": 429,
+            "post_path": "osoba-z-nami/429.json",
+            "post_title": "Magdalena Klesi\u0144ska",
+            "post_type": "osoba-z-nami",
+            "slug": "magdalena-klesinska"
         },
         "445": {
             "content_path": "member/445.md",
