@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:30:39+00:00",
+    "generated_at": "2026-11-13T07:30:47+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -773,6 +773,17 @@
             "post_title": "W Ostr\u00f3dzie",
             "post_type": "post",
             "slug": "w-ostrodzie"
+        },
+        "1379": {
+            "content_path": "post/1379.md",
+            "last_synced_at": "2026-11-13T07:30:47+00:00",
+            "meta_path": "post/1379.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/odwiedzilismy-iii-liceum-ogolnoksztalcace-we-wroclawiu/",
+            "post_id": 1379,
+            "post_path": "post/1379.json",
+            "post_title": "Odwiedzi\u0142y\u015bmy III Liceum Og\u00f3lnokszta\u0142c\u0105ce we Wroc\u0142awiu!",
+            "post_type": "post",
+            "slug": "odwiedzilismy-iii-liceum-ogolnoksztalcace-we-wroclawiu"
         }
     },
     "version": "0.1.2"
