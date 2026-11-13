@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:23:12+00:00",
+    "generated_at": "2026-11-13T07:23:19+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -47,6 +47,17 @@
             "post_title": "Michalina Jaskot",
             "post_type": "osoba-z-nami",
             "slug": "michalina-jaskot"
+        },
+        "433": {
+            "content_path": "osoba-z-nami/433.md",
+            "last_synced_at": "2026-11-13T07:23:19+00:00",
+            "meta_path": "osoba-z-nami/433.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/osoba-z-nami/dominika-jaskot/",
+            "post_id": 433,
+            "post_path": "osoba-z-nami/433.json",
+            "post_title": "Dominika Jaskot",
+            "post_type": "osoba-z-nami",
+            "slug": "dominika-jaskot"
         },
         "445": {
             "content_path": "member/445.md",
