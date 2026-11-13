@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:47+00:00",
+    "generated_at": "2026-11-13T07:28:54+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -410,6 +410,17 @@
             "post_title": "Bujna wyobra\u017ania wybiega do 2028",
             "post_type": "post",
             "slug": "bujna-wyobraznia-wybiega-do-2028"
+        },
+        "688": {
+            "content_path": "post/688.md",
+            "last_synced_at": "2026-11-13T07:28:54+00:00",
+            "meta_path": "post/688.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/nie-sama-zegluga-czlowiek-zyje/",
+            "post_id": 688,
+            "post_path": "post/688.json",
+            "post_title": "Nie sam\u0105 \u017ceglug\u0105 cz\u0142owiek \u017cyje",
+            "post_type": "post",
+            "slug": "nie-sama-zegluga-czlowiek-zyje"
         },
         "1001": {
             "content_path": "member/1001.md",
