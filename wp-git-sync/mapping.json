@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:32+00:00",
+    "generated_at": "2026-11-13T07:28:40+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -377,6 +377,17 @@
             "post_title": "Dziennik",
             "post_type": "page",
             "slug": "dziennik"
+        },
+        "552": {
+            "content_path": "post/552.md",
+            "last_synced_at": "2026-11-13T07:28:40+00:00",
+            "meta_path": "post/552.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/historia-krystyny-chojnowskiej-liskiewicz/",
+            "post_id": 552,
+            "post_path": "post/552.json",
+            "post_title": "Historia in\u017c. kpt. Krystyny Chojnowskiej-Liskiewicz",
+            "post_type": "post",
+            "slug": "historia-krystyny-chojnowskiej-liskiewicz"
         },
         "560": {
             "content_path": "page/560.md",
