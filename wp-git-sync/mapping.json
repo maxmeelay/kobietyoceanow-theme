@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:02+00:00",
+    "generated_at": "2026-11-13T07:28:10+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -234,6 +234,17 @@
             "post_title": "Zapraszamy na pok\u0142ad s/y \"Bonawentura\"",
             "post_type": "post",
             "slug": "zapraszamy-ja-poklad-s-y-bonawentury"
+        },
+        "415": {
+            "content_path": "post/415.md",
+            "last_synced_at": "2026-11-13T07:28:10+00:00",
+            "meta_path": "post/415.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/przyjazd-greckiej-siostry-wpis-do-krs/",
+            "post_id": 415,
+            "post_path": "post/415.json",
+            "post_title": "Przyjazd greckiej siostry, wpis do KRS",
+            "post_type": "post",
+            "slug": "przyjazd-greckiej-siostry-wpis-do-krs"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
