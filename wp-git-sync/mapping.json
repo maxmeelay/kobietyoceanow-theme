@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:30:18+00:00",
+    "generated_at": "2026-11-13T07:30:25+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -740,6 +740,17 @@
             "post_title": "64 bieg Westerplatte",
             "post_type": "post",
             "slug": "64-bieg-westerplatte"
+        },
+        "1349": {
+            "content_path": "post/1349.md",
+            "last_synced_at": "2026-11-13T07:30:25+00:00",
+            "meta_path": "post/1349.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/testy-spinakera/",
+            "post_id": 1349,
+            "post_path": "post/1349.json",
+            "post_title": "Testy Spinakera",
+            "post_type": "post",
+            "slug": "testy-spinakera"
         }
     },
     "version": "0.1.2"
