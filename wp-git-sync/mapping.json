@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:21:47+00:00",
+    "generated_at": "2026-11-13T07:21:54+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -36,6 +36,17 @@
             "post_title": "Ma\u0142gorzata Jaskot",
             "post_type": "member",
             "slug": "malgorzata-jaskot"
+        },
+        "1023": {
+            "content_path": "member/1023.md",
+            "last_synced_at": "2026-11-13T07:21:54+00:00",
+            "meta_path": "member/1023.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/member/aleksandra-gill/",
+            "post_id": 1023,
+            "post_path": "member/1023.json",
+            "post_title": "Aleksandra Gill",
+            "post_type": "member",
+            "slug": "aleksandra-gill"
         },
         "1030": {
             "content_path": "member/1030.md",
