@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:28+00:00",
+    "generated_at": "2026-11-13T07:27:35+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -179,6 +179,17 @@
             "post_title": "Ro\u015bniemy w si\u0142y!",
             "post_type": "post",
             "slug": "rosniemy-w-sily"
+        },
+        "396": {
+            "content_path": "post/396.md",
+            "last_synced_at": "2026-11-13T07:27:35+00:00",
+            "meta_path": "post/396.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/to-nie-sa-przelewki/",
+            "post_id": 396,
+            "post_path": "post/396.json",
+            "post_title": "To nie s\u0105 przelewki",
+            "post_type": "post",
+            "slug": "to-nie-sa-przelewki"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
