@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:48+00:00",
+    "generated_at": "2026-11-13T07:27:55+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -212,6 +212,17 @@
             "post_title": "Jej odwaga to nasz fundament",
             "post_type": "post",
             "slug": "jej-odwaga-to-nasz-fundament"
+        },
+        "406": {
+            "content_path": "post/406.md",
+            "last_synced_at": "2026-11-13T07:27:55+00:00",
+            "meta_path": "post/406.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/wspieral-krystyne-a-teraz-wspiera-nas/",
+            "post_id": 406,
+            "post_path": "post/406.json",
+            "post_title": "Wspiera\u0142 Krystyn\u0119, a teraz wspiera nas",
+            "post_type": "post",
+            "slug": "wspieral-krystyne-a-teraz-wspiera-nas"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
