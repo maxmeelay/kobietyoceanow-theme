@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:27:07+00:00",
+    "generated_at": "2026-11-13T07:27:14+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -146,6 +146,17 @@
             "post_title": "\u201eMarianka\u201d szykuje si\u0119 na przeskok z Poros na Egin\u0119",
             "post_type": "post",
             "slug": "marianka-szykuje-sie-na-przeskok-z-poros-na-egine"
+        },
+        "387": {
+            "content_path": "post/387.md",
+            "last_synced_at": "2026-11-13T07:27:14+00:00",
+            "meta_path": "post/387.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/poznajemy-krystyne-polska-rezyserke-filmowa/",
+            "post_id": 387,
+            "post_path": "post/387.json",
+            "post_title": "Poznajemy Krystyn\u0119 \u2014 polsk\u0105 re\u017cyserk\u0119 filmow\u0105",
+            "post_type": "post",
+            "slug": "poznajemy-krystyne-polska-rezyserke-filmowa"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
