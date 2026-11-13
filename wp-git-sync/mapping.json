@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:25:07+00:00",
+    "generated_at": "2026-11-13T07:26:14+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -355,6 +355,17 @@
             "post_title": "Rejs 2028 - 2030",
             "post_type": "page",
             "slug": "rejs"
+        },
+        "1300": {
+            "content_path": "page/1300.md",
+            "last_synced_at": "2026-11-13T07:26:14+00:00",
+            "meta_path": "page/1300.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/dolacz-lub-wesprzyj/",
+            "post_id": 1300,
+            "post_path": "page/1300.json",
+            "post_title": "Do\u0142acz lub wesprzyj",
+            "post_type": "page",
+            "slug": "dolacz-lub-wesprzyj"
         }
     },
     "version": "0.1.2"
