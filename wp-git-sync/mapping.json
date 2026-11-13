@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:40+00:00",
+    "generated_at": "2026-11-13T07:28:47+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -399,6 +399,17 @@
             "post_title": "Z nami",
             "post_type": "page",
             "slug": "z-nami"
+        },
+        "587": {
+            "content_path": "post/587.md",
+            "last_synced_at": "2026-11-13T07:28:47+00:00",
+            "meta_path": "post/587.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/bujna-wyobraznia-wybiega-do-2028/",
+            "post_id": 587,
+            "post_path": "post/587.json",
+            "post_title": "Bujna wyobra\u017ania wybiega do 2028",
+            "post_type": "post",
+            "slug": "bujna-wyobraznia-wybiega-do-2028"
         },
         "1001": {
             "content_path": "member/1001.md",
