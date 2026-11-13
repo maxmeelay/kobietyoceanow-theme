@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:10+00:00",
+    "generated_at": "2026-11-13T07:28:17+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -245,6 +245,17 @@
             "post_title": "Przyjazd greckiej siostry, wpis do KRS",
             "post_type": "post",
             "slug": "przyjazd-greckiej-siostry-wpis-do-krs"
+        },
+        "418": {
+            "content_path": "post/418.md",
+            "last_synced_at": "2026-11-13T07:28:17+00:00",
+            "meta_path": "post/418.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/kolejne-inspirujace-spotkanie/",
+            "post_id": 418,
+            "post_path": "post/418.json",
+            "post_title": "Kolejne inspiruj\u0105ce spotkanie",
+            "post_type": "post",
+            "slug": "kolejne-inspirujace-spotkanie"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
