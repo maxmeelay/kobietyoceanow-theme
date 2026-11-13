@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:22:15+00:00",
+    "generated_at": "2026-11-13T07:22:22+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -47,6 +47,17 @@
             "post_title": "Ma\u0142gorzata Jaskot",
             "post_type": "member",
             "slug": "malgorzata-jaskot"
+        },
+        "1010": {
+            "content_path": "member/1010.md",
+            "last_synced_at": "2026-11-13T07:22:22+00:00",
+            "meta_path": "member/1010.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/member/marta-zakrzewska/",
+            "post_id": 1010,
+            "post_path": "member/1010.json",
+            "post_title": "Marta Zakrzewska",
+            "post_type": "member",
+            "slug": "marta-zakrzewska"
         },
         "1017": {
             "content_path": "member/1017.md",
