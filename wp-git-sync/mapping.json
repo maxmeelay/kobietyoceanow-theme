@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:26:59+00:00",
+    "generated_at": "2026-11-13T07:27:07+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -135,6 +135,17 @@
             "post_title": "\u017beglujemy z Akademi\u0105 \u017beglarstwa Genua",
             "post_type": "post",
             "slug": "zeglujemy-z-akademia-zeglarstwa-genua"
+        },
+        "384": {
+            "content_path": "post/384.md",
+            "last_synced_at": "2026-11-13T07:27:07+00:00",
+            "meta_path": "post/384.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/marianka-szykuje-sie-na-przeskok-z-poros-na-egine/",
+            "post_id": 384,
+            "post_path": "post/384.json",
+            "post_title": "\u201eMarianka\u201d szykuje si\u0119 na przeskok z Poros na Egin\u0119",
+            "post_type": "post",
+            "slug": "marianka-szykuje-sie-na-przeskok-z-poros-na-egine"
         },
         "429": {
             "content_path": "osoba-z-nami/429.md",
