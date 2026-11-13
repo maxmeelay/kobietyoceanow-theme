@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:24:46+00:00",
+    "generated_at": "2026-11-13T07:24:52+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -179,6 +179,17 @@
             "post_title": "Dziennik",
             "post_type": "page",
             "slug": "dziennik"
+        },
+        "560": {
+            "content_path": "page/560.md",
+            "last_synced_at": "2026-11-13T07:24:52+00:00",
+            "meta_path": "page/560.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/z-nami/",
+            "post_id": 560,
+            "post_path": "page/560.json",
+            "post_title": "Z nami",
+            "post_type": "page",
+            "slug": "z-nami"
         },
         "1001": {
             "content_path": "member/1001.md",
