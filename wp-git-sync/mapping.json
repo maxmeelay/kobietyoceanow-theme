@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:28:24+00:00",
+    "generated_at": "2026-11-13T07:28:32+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -344,6 +344,17 @@
             "post_title": "Aktualno\u015bci",
             "post_type": "page",
             "slug": "aktualnosci"
+        },
+        "514": {
+            "content_path": "post/514.md",
+            "last_synced_at": "2026-11-13T07:28:32+00:00",
+            "meta_path": "post/514.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/testowa-aktualnosc/",
+            "post_id": 514,
+            "post_path": "post/514.json",
+            "post_title": "Bark\u0105 po kanale we Francji",
+            "post_type": "post",
+            "slug": "testowa-aktualnosc"
         },
         "530": {
             "content_path": "page/530.md",
