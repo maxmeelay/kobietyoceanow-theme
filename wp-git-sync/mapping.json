@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:55+00:00",
+    "generated_at": "2026-11-13T07:32:02+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -520,6 +520,17 @@
             "post_title": "Wesprzyj",
             "post_type": "wp_block",
             "slug": "wesprzyj"
+        },
+        "838": {
+            "content_path": "wp_block/838.md",
+            "last_synced_at": "2026-11-13T07:32:02+00:00",
+            "meta_path": "wp_block/838.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/kontakt/",
+            "post_id": 838,
+            "post_path": "wp_block/838.json",
+            "post_title": "Kontakt",
+            "post_type": "wp_block",
+            "slug": "kontakt"
         },
         "1001": {
             "content_path": "member/1001.md",
