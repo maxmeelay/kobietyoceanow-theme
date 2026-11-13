@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:30:04+00:00",
+    "generated_at": "2026-11-13T07:30:11+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -718,6 +718,17 @@
             "post_title": "za",
             "post_type": "post",
             "slug": "1340"
+        },
+        "1343": {
+            "content_path": "post/1343.md",
+            "last_synced_at": "2026-11-13T07:30:11+00:00",
+            "meta_path": "post/1343.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/jestesmy-na-baltic-sail/",
+            "post_id": 1343,
+            "post_path": "post/1343.json",
+            "post_title": "Jeste\u015bmy na \"Baltic Sail\"",
+            "post_type": "post",
+            "slug": "jestesmy-na-baltic-sail"
         }
     },
     "version": "0.1.2"
