@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:31:32+00:00",
+    "generated_at": "2026-11-13T07:31:40+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -850,6 +850,17 @@
             "post_title": "Zapraszamy do Radia Szczecin 25.10.2026 g. 18:00",
             "post_type": "post",
             "slug": "zapraszamy-do-radia-szczecin-25-10-2026-g-1800"
+        },
+        "1433": {
+            "content_path": "post/1433.md",
+            "last_synced_at": "2026-11-13T07:31:40+00:00",
+            "meta_path": "post/1433.meta.json",
+            "permalink": "https://www.kobietyoceanow.pl/do-zobaczenia-na-darze-pomorza-14-11-2026/",
+            "post_id": 1433,
+            "post_path": "post/1433.json",
+            "post_title": "Do zobaczenia na \"Darze Pomorza\" 14.11.2026 - Bractwo Kaphornowc\u00f3w",
+            "post_type": "post",
+            "slug": "do-zobaczenia-na-darze-pomorza-14-11-2026"
         }
     },
     "version": "0.1.2"
