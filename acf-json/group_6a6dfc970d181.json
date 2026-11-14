@@ -1,7 +1,7 @@
 {
     "ID": 479,
     "key": "group_6a6dfc970d181",
-    "title": "Block \/ Hero",
+    "title": "Block / Hero",
     "fields": [
         {
             "ID": 480,
@@ -40,10 +40,10 @@
             "name": "headline",
             "aria-label": "",
             "prefix": "acf",
-            "type": "text",
+            "type": "textarea",
             "value": null,
             "menu_order": 1,
-            "instructions": "",
+            "instructions": "Rich text is limited to em and br and sanitized before output. Polylang Free manual guidance: translate independently in each page translation.",
             "required": 0,
             "id": "",
             "class": "",
@@ -62,6 +62,20 @@
             "append": "",
             "_name": "headline",
             "_valid": 1
+        },
+        {
+            "key": "field_fd2c79a51e5b",
+            "label": "Home breadcrumb",
+            "name": "home_label",
+            "type": "text",
+            "instructions": "Polylang Free manual guidance: translate independently in each page translation.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
         }
     ],
     "location": [
@@ -69,7 +83,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/hero"
+                "value": "acf/hero"
             }
         ]
     ],

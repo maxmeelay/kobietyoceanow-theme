@@ -1,0 +1,184 @@
+{
+    "ID": 2001,
+    "key": "group_d7ef5f0b8ddd7",
+    "title": "Block / About",
+    "fields": [
+        {
+            "key": "field_78ef806e83f0",
+            "label": "Archive label",
+            "name": "archive_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_696310bb193e",
+            "label": "Section label",
+            "name": "section_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_eb84eb29a425",
+            "label": "Headline",
+            "name": "headline",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_adc80430112e",
+            "label": "Archive images",
+            "name": "images",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "sub_fields": [
+                {
+                    "key": "field_e4926cf077a3",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "Polylang Free manual guidance: copy this value to the translated block.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "library": "all",
+                    "preview_size": "medium"
+                },
+                {
+                    "key": "field_00008efb5c80",
+                    "label": "Alternative text",
+                    "name": "alt",
+                    "type": "text",
+                    "instructions": "Polylang Free manual guidance: translate independently in each page translation.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                }
+            ],
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add item"
+        },
+        {
+            "key": "field_9fdd0e3ed553",
+            "label": "Paragraphs",
+            "name": "paragraphs",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "sub_fields": [
+                {
+                    "key": "field_3dea844a5e3b",
+                    "label": "Paragraph",
+                    "name": "text",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "rows": 3,
+                    "new_lines": ""
+                }
+            ],
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add item"
+        },
+        {
+            "key": "field_ea98e1e5ea60",
+            "label": "Button label",
+            "name": "button_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_c075d8cfd3a2",
+            "label": "Button link",
+            "name": "button_link",
+            "type": "link",
+            "instructions": "Polylang Free manual guidance: copy this value to the translated block (; select the translated page where available).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/about"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Polylang Free uses manual page translations; copy block content and edit values independently by language.",
+    "show_in_rest": 0,
+    "_valid": true
+}

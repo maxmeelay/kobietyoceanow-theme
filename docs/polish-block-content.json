@@ -1,0 +1,89 @@
+{
+  "migration_note": "Field-by-field source copy from the checked-in Twig templates and WP Git Sync snapshot. Apply to the Polish block instances in WordPress; this file is a mapping, not an automatic import.",
+  "hero": {
+    "home_label": "Strona główna",
+    "existing_fields": "Keep each block's existing pre_headline and headline values. These are stored in page/*.md and post/*.md using the original ACF field keys.",
+    "examples": [
+      {"source": "page/1276.md", "pre_headline": "50 lat później", "headline": "<em>Rejs</em> dookoła świata <em>2028-2030</em>"},
+      {"source": "page/286.md", "pre_headline": "O nas", "headline": "Poznaj <em>zespół</em>"},
+      {"source": "post/552.md", "pre_headline": "O PATRONCE", "headline": "Historia inż. kpt. <em>Krystyny Chojnowskiej-Liskiewicz</em>"}
+    ]
+  },
+  "intro": {
+    "source": "page/2.md",
+    "background_image": 1188,
+    "pre_headline": "Pierwsza w historii.",
+    "headline": "Polka, która była <em>Pierwsza</em>.<br />\n<em>Historia</em>, która płynie dalej…\n",
+    "text": "Inż. kpt. Krystyna Chojnowska-Liskiewicz była pierwszą kobietą na świecie,<br />\nktóra samotnie opłynęła Ziemię. Dziś kontynuujemy Jej ideę. <br />\nInspirujemy do odważnego podejmowania wyzwań i odkrywania własnych możliwości.\n",
+    "button_primary_label": "Poznaj projekt",
+    "button_primary": {"title": "Poznaj projekt", "url": "/#rejs"},
+    "button_secondary_label": "Poznaj patronkę",
+    "button_secondary": {"title": "Poznaj patronkę", "url": "/#o-patronce"},
+    "metrics": [
+      {"value": "3", "label": "Oceany"},
+      {"value": "28 696", "label": "Mil morskich"},
+      {"value": "1", "label": "Kobieta"},
+      {"value": "1", "label": "Historyczny wyczyn"}
+    ]
+  },
+  "about": {
+    "archive_label": "Z archiwum",
+    "section_label": "O patronce",
+    "headline": "Kobieta, która zmieniła historię.",
+    "images": [
+      {"image_path": "/wp-content/uploads/2026/08/1a.-O-patronce-po-prawej.jpg", "alt": "Krystyna w sztormiaku stawia żagiel — archiwum"},
+      {"image_path": "/wp-content/uploads/2026/08/1.-O-Patronce.jpg", "alt": "Krystyna na pokładzie Mazurka w porcie — archiwum"},
+      {"image_path": "/wp-content/uploads/2026/08/1.O-PATRONCE.jpg", "alt": "Krystyna w kokpicie na oceanie — archiwum"}
+    ],
+    "paragraphs": [
+      "20 marca 1978 roku o godzinie 19:00 czasu jachtowego (21:00 GMT) inż. kpt. Krystyna Chojnowska-Liskiewicz po przepłynięciu 28 696 mil morskich zamknęła pętlę wokół globu, stając się pierwszą kobietą na świecie, która dokonała tego wyczynu.",
+      "Jej historia pokazuje, że odwaga, determinacja, konsekwencja i odpowiednie przygotowanie pozwalają osiągać nawet najbardziej ambitne cele.",
+      "Do dziś inspiruje kolejne pokolenia do odważnego podejmowania wyzwań."
+    ],
+    "button_label": "Poznaj Patronkę",
+    "button_link_url": "/historia-krystyny-chojnowskiej-liskiewicz"
+  },
+  "join": {
+    "eyebrow": "Dołącz do nas",
+    "headline": "Salony Kobiet Oceanów",
+    "cards": [
+      {"title": "Wesprzyj darowizną", "description": "Patronite — regularne i jednorazowe wsparcie", "button_label": "Patronite", "destination": "https://patronite.pl/"},
+      {"title": "Zostań Członkinią", "description": "Aktywnie współtwórz fundację", "button_label": "Aplikuj", "email_to": "fundacja@kobietyoceanow.pl", "email_subject": "Wniosek o członkostwo", "email_body": "Cześć, chcę zostać członkinią. Proszę o przesłanie wniosku."},
+      {"title": "Ambasador / Ambasadorka", "description": "Nieś ideę dalej w świat", "button_label": "Dołącz", "email_to": "fundacja@kobietyoceanow.pl", "email_subject": "Ambasador/ka", "email_body": "Cześć, chcę zostać ambasadorem/ambasadorką."}
+    ]
+  },
+  "mission": {
+    "date_range": "2028 — 2030",
+    "headline": "Rejs dookoła świata",
+    "headline_emphasis": "Śladami Krystyny Chojnowskiej-Liskiewicz",
+    "summary": "Poprowadzimy jacht śladami historycznego rejsu Krystyny przez Atlantyk, Pacyfik i Ocean Indyjski. Etapami, z kobiecymi załogami, ze spotkaniami z Polonią i pełną dokumentacją.",
+    "timeline": [
+      {"code": "K.00", "year": "2028", "label": "Symboliczny start", "location": "Gdańsk"},
+      {"code": "K.01", "year": "2028", "label": "Właściwy start", "location": "Las Palmas"},
+      {"code": "K.07", "year": "2029", "label": "Pacyfik — etap środkowy", "location": "Pacific"},
+      {"code": "K.13", "year": "2030", "label": "Finał — powrót", "location": "Gdańsk"}
+    ],
+    "quote": "To nie tylko żegluga. To projekt, który buduje odwagę i inspiruje kolejne pokolenia kobiet do przekraczania własnych granic."
+  },
+  "about-us_and_with-us": {
+    "eyebrow": "O nas",
+    "headline": "Kobiety Oceanów",
+    "intro": "Łączymy żeglarstwo, edukację i działania społeczne. Tworzymy przestrzeń, w której kobiety i młode osoby odkrywają swoją siłę i sprawczość.",
+    "team_label": "Zespół Fundacji",
+    "team": [
+      "Małgorzata Talar-Rybicka",
+      "Marta Ostrowska",
+      "Gabriela Brzóska-Murach",
+      "Małgorzata Jaskot",
+      "Karolina Beiger",
+      "Aleksandra Gill",
+      "Iwona Olszacka",
+      "Marta Zakrzewska"
+    ],
+    "continuation_label": "Bohaterki",
+    "continuation_headline": "Kontynuatorki",
+    "continuation_text": "Współczesne Kobiety Oceanów — żeglarki, podróżniczki, naukowczynie, edukatorki i liderki, które kontynuują ideę Krystyny.",
+    "button_label": "Dowiedz się więcej",
+    "button_link_url": "/o-nas"
+  }
+}

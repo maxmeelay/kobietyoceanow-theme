@@ -1,0 +1,384 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f4e3]:
+    - banner [ref=f4e4]:
+      - banner [ref=f4e5]:
+        - generic [ref=f4e6]:
+          - link [ref=f4e7] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f4e79]:
+            - navigation [ref=f4e80]:
+              - list [ref=f4e81]:
+                - listitem [ref=f4e82]:
+                  - link "O Patronce" [ref=f4e83] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/historia-krystyny-chojnowskiej-liskiewicz/
+                - listitem [ref=f4e84]:
+                  - link "O Nas" [ref=f4e85] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/o-nas/
+                - listitem [ref=f4e86]:
+                  - link "Z nami" [ref=f4e87] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/z-nami/
+                - listitem [ref=f4e88]:
+                  - link "Dziennik" [ref=f4e89] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/dziennik/
+                - listitem [ref=f4e90]:
+                  - link "Aktualności" [ref=f4e91] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/aktualnosci/
+                - listitem [ref=f4e92]:
+                  - link "Rejs" [ref=f4e93] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/rejs/
+                - listitem [ref=f4e94]:
+                  - link "Partnerzy" [ref=f4e95] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/partnerzy/
+                - listitem [ref=f4e96]:
+                  - link "Wesprzyj" [ref=f4e97] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/dolacz-lub-wesprzyj/
+                - listitem [ref=f4e98]:
+                  - link "Kontakt" [ref=f4e99] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/kontakt/
+            - list [ref=f4e100]:
+              - listitem [ref=f4e101]:
+                - link "Facebook" [ref=f4e102] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61591292836126
+              - listitem [ref=f4e106]:
+                - link "Instagram" [ref=f4e107] [cursor=pointer]:
+                  - /url: https://www.instagram.com/kobiety.oceanow/
+              - listitem [ref=f4e111]:
+                - link "YouTube" [ref=f4e112] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@KobietyOceanow
+    - main [ref=f4e116]:
+      - generic [ref=f4e117]:
+        - generic [ref=f4e123]:
+          - generic [ref=f4e126]:
+            - generic [ref=f4e127]: Pierwsza w historii.
+            - heading [level=1] [ref=f4e130]:
+              - generic [ref=f4e131]:
+                - text: Polka, która była
+                - emphasis [ref=f4e132]: Pierwsza
+                - text: .
+                - emphasis [ref=f4e133]: Historia
+                - text: ", która płynie dalej…"
+            - paragraph [ref=f4e134]: Inż. kpt. Krystyna Chojnowska-Liskiewicz była pierwszą kobietą na świecie, która samotnie opłynęła Ziemię. Dziś kontynuujemy Jej ideę. Inspirujemy do odważnego podejmowania wyzwań i odkrywania własnych możliwości.
+            - generic [ref=f4e135]:
+              - link "Poznaj projekt" [ref=f4e136] [cursor=pointer]:
+                - /url: /#rejs
+              - link "Poznaj patronkę" [ref=f4e138] [cursor=pointer]:
+                - /url: /#o-patronce
+          - generic [ref=f4e140]:
+            - generic [ref=f4e146]:
+              - generic [ref=f4e147]: "3"
+              - generic [ref=f4e148]: Oceany
+            - generic [ref=f4e153]:
+              - generic [ref=f4e154]: 28 696
+              - generic [ref=f4e155]: Mil morskich
+            - generic [ref=f4e161]:
+              - generic [ref=f4e162]: "1"
+              - generic [ref=f4e163]: Kobieta
+            - generic [ref=f4e170]:
+              - generic [ref=f4e171]: "1"
+              - generic [ref=f4e172]: Historyczny wyczyn
+        - generic [ref=f4e177]:
+          - generic [ref=f4e183]:
+            - figure [ref=f4e184]:
+              - img "Krystyna w sztormiaku stawia żagiel — archiwum" [ref=f4e185]
+            - figure [ref=f4e186]:
+              - img "Krystyna na pokładzie Mazurka w porcie — archiwum" [ref=f4e187]
+            - figure [ref=f4e188]:
+              - img "Krystyna w kokpicie na oceanie — archiwum" [ref=f4e189]
+          - generic [ref=f4e190]:
+            - generic [ref=f4e191]: O patronce
+            - heading "Kobieta, która zmieniła historię." [level=2] [ref=f4e192]
+            - paragraph [ref=f4e193]: 20 marca 1978 roku o godzinie 19:00 czasu jachtowego (21:00 GMT) inż. kpt. Krystyna Chojnowska-Liskiewicz po przepłynięciu 28 696 mil morskich zamknęła pętlę wokół globu, stając się pierwszą kobietą na świecie, która dokonała tego wyczynu.
+            - paragraph [ref=f4e194]: Jej historia pokazuje, że odwaga, determinacja, konsekwencja i odpowiednie przygotowanie pozwalają osiągać nawet najbardziej ambitne cele.
+            - paragraph [ref=f4e195]: Do dziś inspiruje kolejne pokolenia do odważnego podejmowania wyzwań.
+            - link "Poznaj Patronkę" [ref=f4e196] [cursor=pointer]:
+              - /url: /historia-krystyny-chojnowskiej-liskiewicz
+              - generic [aria-hidden] [ref=f4e198]: →
+        - generic [ref=f4e204]:
+          - paragraph [ref=f4e205]: O Nas
+          - heading "Kobiety Oceanów" [level=2] [ref=f4e206]
+          - paragraph [ref=f4e207]: Fundacja Kobiety Oceanów im. Krystyny Chojnowskiej-Liskiewicz powstała z przekonania, że warto odważnie marzyć, a dzięki determinacji, konsekwencji i dobremu przygotowaniu można realizować nawet najbardziej ambitne cele.
+          - paragraph [ref=f4e208]: Przypominając historię naszej Patronki, inspirujemy kolejne pokolenia do odważnego podejmowania wyzwań i odkrywania własnych możliwości poprzez żeglarstwo, edukację i działania społeczne.
+          - paragraph [ref=f4e209]:
+            - strong [ref=f4e210]: Każda z nas przeszła inną drogę. Wszystkie spotkałyśmy się w jednym miejscu – tam, gdzie historia stała się inspiracją do działania.
+          - link "Poznaj Fundacje" [ref=f4e211] [cursor=pointer]:
+            - /url: /o-nas/
+        - generic [ref=f4e494]:
+          - figure [ref=f4e496]
+          - generic [ref=f4e497]:
+            - paragraph [ref=f4e498]:
+              - strong [ref=f4e499]: Z Nami
+            - heading "Nieważne, gdzie. Ważne z kim!" [level=2] [ref=f4e500]: Nieważne, gdzie.Ważne z kim!
+            - paragraph [ref=f4e501]:
+              - strong [ref=f4e502]: Za każdą historią stoją ludzie. To oni inspirują, wspierają, dzielą się swoim doświadczeniem i pomagają odnaleźć właściwy kurs.
+            - paragraph [ref=f4e503]: Wokół Fundacji Kobiety Oceanów spotykają się osoby z różnych środowisk, które łączy wspólna idea – wiara, że warto odważnie marzyć, podejmować wyzwania i wspierać innych w odkrywaniu własnych możliwości.
+            - link "Poznaj osoby, które są z nami" [ref=f4e504] [cursor=pointer]:
+              - /url: /z-nami/
+        - generic [ref=f4e509]:
+          - generic [ref=f4e510]:
+            - generic [ref=f4e512]:
+              - paragraph [ref=f4e513]: Droga, którą idziemy
+              - heading "Każda droga zaczyna się od pierwszego kroku." [level=2] [ref=f4e514]
+              - paragraph [ref=f4e515]: Nasza prowadzi przez kolejne spotkania, wydarzenia i projekty, które tworzą historię Fundacji Kobiety Oceanów.
+              - paragraph [ref=f4e516]: Dzielimy się nią na bieżąco, bo wierzymy, że odważnie podjęte decyzje mogą stać się początkiem czegoś większego.
+            - figure [ref=f4e518]
+          - list [ref=f4e521]:
+            - listitem [ref=f4e522]:
+              - generic [ref=f4e523]:
+                - time [ref=f4e525]: 17 October 2026
+                - heading [level=2] [ref=f4e526]:
+                  - link "Znowu na wodzie" [ref=f4e527] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/znowu-na-wodzie/
+                - paragraph [ref=f4e529]: Jesteśmy w Marina di Portorosa na Sycylii! Właśnie wchodzimy na pokład katamaranu, który przez najbliższy tydzień będzie naszym…
+                - 'link "Zobacz wpis : Znowu na wodzie" [ref=f4e530] [cursor=pointer]':
+                  - /url: http://tower-3420:8081/znowu-na-wodzie/
+                  - text: Zobacz wpis
+                  - generic [ref=f4e531]: ": Znowu na wodzie"
+            - listitem [ref=f4e532]:
+              - generic [ref=f4e533]:
+                - time [ref=f4e535]: 12 October 2026
+                - heading [level=2] [ref=f4e536]:
+                  - link "Odwiedziłyśmy III Liceum Ogólnokształcące we Wrocławiu!" [ref=f4e537] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/odwiedzilismy-iii-liceum-ogolnoksztalcace-we-wroclawiu/
+                - paragraph [ref=f4e539]: To było bardzo miłe i inspirujące spotkanie! Uczniowie zadawali mnóstwo pytań, z zainteresowaniem słuchali o naszym projekcie i…
+                - 'link "Zobacz wpis : Odwiedziłyśmy III Liceum Ogólnokształcące we Wrocławiu!" [ref=f4e540] [cursor=pointer]':
+                  - /url: http://tower-3420:8081/odwiedzilismy-iii-liceum-ogolnoksztalcace-we-wroclawiu/
+                  - text: Zobacz wpis
+                  - generic [ref=f4e541]: ": Odwiedziłyśmy III Liceum Ogólnokształcące we Wrocławiu!"
+            - listitem [ref=f4e542]:
+              - generic [ref=f4e543]:
+                - time [ref=f4e545]: 10 October 2026
+                - heading [level=2] [ref=f4e546]:
+                  - link "XVIII Zlot Jachtów z Duszą „Próchno i Rdza”" [ref=f4e547] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/prochno-i-rdza/
+                - paragraph [ref=f4e549]: Tegoroczny zlot „Próchno i Rdza” po raz kolejny zgromadził miłośników klasycznych jachtów, żeglarstwa i morskich tradycji. Wśród uczestników…
+                - 'link "Zobacz wpis : XVIII Zlot Jachtów z Duszą „Próchno i Rdza”" [ref=f4e550] [cursor=pointer]':
+                  - /url: http://tower-3420:8081/prochno-i-rdza/
+                  - text: Zobacz wpis
+                  - generic [ref=f4e551]: ": XVIII Zlot Jachtów z Duszą „Próchno i Rdza”"
+          - link "Przejdź do dziennika" [ref=f4e553] [cursor=pointer]:
+            - /url: /dziennik/
+        - generic [ref=f4e561]:
+          - generic [ref=f4e562]: REJS 2028–2030
+          - heading "Śladami Krystyny Chojnowskiej-Liskiewicz" [level=2] [ref=f4e566]
+          - paragraph [ref=f4e567]:
+            - strong [ref=f4e568]: Rejs dookoła świata – 50 lat później (2028–2030)
+          - paragraph [ref=f4e569]: 50 lat po historycznym wyczynie naszej Patronki mamy szansę przypomnieć i opowiedzieć Jej historię na nowo. Nie tylko jako rekonstrukcję wyczynu, lecz jako kontynuację Jej idei.
+          - figure [ref=f4e571]
+          - paragraph [ref=f4e572]: Rejsowi towarzyszyć będą spotkania i wydarzenia organizowane w portach historycznej trasy,we współpracy z Polonią oraz lokalnymi środowiskami żeglarskimi.
+        - generic [ref=f4e576]:
+          - paragraph [ref=f4e577]: Aktualności
+          - heading "Co nowego w Fundacji" [level=2] [ref=f4e578]
+          - paragraph [ref=f4e579]: Rejsy, spotkania, prelekcje, wydarzenia i nowe inicjatywy. Bądź na bieżąco z tym, co dzieje się w Fundacji.
+          - list [ref=f4e582]:
+            - listitem [ref=f4e583]:
+              - generic [ref=f4e584]:
+                - time [ref=f4e586]: 27 October 2026
+                - heading [level=2] [ref=f4e587]:
+                  - link "Do zobaczenia na “Darze Pomorza” 14.11.2026 – Bractwo Kaphornowców" [ref=f4e588] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/do-zobaczenia-na-darze-pomorza-14-11-2026/
+                - generic:
+                  - paragraph
+                - 'link "Zobacz wpis : Do zobaczenia na “Darze Pomorza” 14.11.2026 – Bractwo Kaphornowców" [ref=f4e589] [cursor=pointer]':
+                  - /url: http://tower-3420:8081/do-zobaczenia-na-darze-pomorza-14-11-2026/
+                  - text: Zobacz wpis
+                  - generic [ref=f4e590]: ": Do zobaczenia na “Darze Pomorza” 14.11.2026 – Bractwo Kaphornowców"
+            - listitem [ref=f4e591]:
+              - generic [ref=f4e592]:
+                - time [ref=f4e594]: 24 October 2026
+                - heading [level=2] [ref=f4e595]:
+                  - link "Zapraszamy do Radia Szczecin 25.10.2026 g. 18:00" [ref=f4e596] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/zapraszamy-do-radia-szczecin-25-10-2026-g-1800/
+                - generic:
+                  - paragraph
+                - 'link "Zobacz wpis : Zapraszamy do Radia Szczecin 25.10.2026 g. 18:00" [ref=f4e597] [cursor=pointer]':
+                  - /url: http://tower-3420:8081/zapraszamy-do-radia-szczecin-25-10-2026-g-1800/
+                  - text: Zobacz wpis
+                  - generic [ref=f4e598]: ": Zapraszamy do Radia Szczecin 25.10.2026 g. 18:00"
+            - listitem [ref=f4e599]:
+              - generic [ref=f4e600]:
+                - time [ref=f4e602]: 27 August 2026
+                - heading [level=2] [ref=f4e603]:
+                  - link "Rejs po Wyspach Kanaryjskich" [ref=f4e604] [cursor=pointer]:
+                    - /url: http://tower-3420:8081/rejs-po-wyspach-kanaryjskich/
+                - paragraph [ref=f4e606]: W terminie 13-20.02.2027 zorganizujemy rejs z Teneryfy tygodniowy po Wyspach Kanaryjskich. Więcej info niebawem.
+                - 'link "Zobacz wpis : Rejs po Wyspach Kanaryjskich" [ref=f4e607] [cursor=pointer]':
+                  - /url: http://tower-3420:8081/rejs-po-wyspach-kanaryjskich/
+                  - text: Zobacz wpis
+                  - generic [ref=f4e608]: ": Rejs po Wyspach Kanaryjskich"
+          - link "Przejdź do aktualności" [ref=f4e610] [cursor=pointer]:
+            - /url: /aktualnosci/
+        - generic [ref=f4e615]:
+          - generic [ref=f4e616]: Partnerzy
+          - heading "Razem możemy więcej" [level=2] [ref=f4e620]
+          - paragraph [ref=f4e621]:
+            - strong [ref=f4e622]: Wierzymy, że najlepsze projekty powstają dzięki współpracy.
+          - paragraph [ref=f4e623]: Dziękujemy wszystkim instytucjom, organizacjom i osobom, które wspierają działalność Fundacji i wspólnie z nami pomagają realizować kolejne inicjatywy.
+          - generic [ref=f4e624]:
+            - generic [ref=f4e625]:
+              - figure [ref=f4e626]
+              - paragraph [ref=f4e627]:
+                - link "Narodowe Muzeum Morskie" [ref=f4e628] [cursor=pointer]:
+                  - /url: https://nmm.pl/
+              - paragraph [ref=f4e629]:
+                - emphasis [ref=f4e630]: Partner wspierający działania Fundacji na rzecz popularyzacji historii polskiego żeglarstwa oraz dziedzictwa naszej Patronki.
+            - generic [ref=f4e631]:
+              - figure [ref=f4e632]
+              - paragraph [ref=f4e633]:
+                - link "Prezydent Miasta Gdańska" [ref=f4e634] [cursor=pointer]:
+                  - /url: https://www.gdansk.pl/
+              - paragraph [ref=f4e635]:
+                - emphasis [ref=f4e636]: Projekt „Śladami Krystyny Chojnowskiej-Liskiewicz” został objęty Patronatem Honorowym Prezydent Miasta Gdańska Aleksandry Dulkiewicz.
+            - generic [ref=f4e637]:
+              - figure [ref=f4e638]
+              - paragraph [ref=f4e639]:
+                - link "Marszałek Województwa Pomorskiego" [ref=f4e640] [cursor=pointer]:
+                  - /url: http://www.pomorskie.eu
+              - paragraph [ref=f4e641]:
+                - emphasis [ref=f4e642]: Przedsięwzięcie „Śladami Krystyny Chojnowskiej-Liskiewicz” – Projekt edukacyjno-społeczny i rejs dookoła świata – 50 lat później został objęty patronatem honorowym Marszałka Województwa Pomorskiego
+            - generic [ref=f4e643]:
+              - figure [ref=f4e644]
+              - paragraph [ref=f4e645]:
+                - link "Prezes Polskiego Związku Żeglarskiego" [ref=f4e646] [cursor=pointer]:
+                  - /url: https://pya.org.pl/polski-zwiazek-zeglarski/
+              - paragraph [ref=f4e647]:
+                - emphasis [ref=f4e648]: objął patronatem honorowym przedsięwzięcie “Śladami Krystyny Chojnowskiej-Liskiewicz Projekt edukacyjno-społeczny i rejs dookoła świata – 50 lat później
+                - text: “
+            - generic [ref=f4e649]:
+              - paragraph [ref=f4e650]: Krystyna Krauze
+              - paragraph [ref=f4e651]:
+                - emphasis [ref=f4e652]:
+                  - emphasis [ref=f4e653]:
+                    - emphasis [ref=f4e654]:
+                      - emphasis [ref=f4e655]: Pani reżyser i dokumentalistka, córka chrzestna kpt. Wacława Liskiewicza. Realizuje film dokumentalny poświęcony naszej Patronce, wspierając popularyzację Jej historii i dorobku.
+        - generic [ref=f4e656]:
+          - generic [ref=f4e657]:
+            - figure [ref=f4e659]
+            - generic [ref=f4e660]:
+              - paragraph [ref=f4e661]:
+                - strong [ref=f4e662]: DOŁĄCZ
+              - heading "Znajdź swoje miejsce w Fundacji" [level=2] [ref=f4e663]
+              - paragraph [ref=f4e664]:
+                - strong [ref=f4e665]: Nieważne, ile mil morskich masz za sobą.
+                - strong [ref=f4e666]: Ważne, że chcesz obrać z nami wspólny kurs!
+              - paragraph [ref=f4e667]: Grunt to pozytywne nastawienie, chęć współpracy i gotowość do działania!
+          - generic [ref=f4e668]:
+            - generic [ref=f4e670]:
+              - paragraph [ref=f4e671]: "01"
+              - paragraph [ref=f4e672]:
+                - strong [ref=f4e673]: Zostań wolontariuszem
+              - paragraph [ref=f4e674]: Pomóż przy organizacji wydarzeń, rejsów i projektów Fundacji.
+            - generic [ref=f4e676]:
+              - paragraph [ref=f4e677]: "02"
+              - paragraph [ref=f4e678]:
+                - strong [ref=f4e679]: Dołącz do załogi
+              - paragraph [ref=f4e680]: Weź udział w rejsach i przedsięwzięciach organizowanych przez Fundację.
+              - link "Sprawdź aktualne wydarzenia" [ref=f4e683] [cursor=pointer]:
+                - /url: /aktualnosci/
+            - generic [ref=f4e685]:
+              - paragraph [ref=f4e686]: "03"
+              - paragraph [ref=f4e687]:
+                - strong [ref=f4e688]: Zostań Partnerem
+              - paragraph [ref=f4e689]: Twórz z nami kolejne inicjatywy i wspieraj rozwój działalności Fundacji.
+              - link "Dowiedz się więcej" [ref=f4e692] [cursor=pointer]:
+                - /url: /#partnerzy
+            - generic [ref=f4e694]:
+              - paragraph [ref=f4e695]: "04"
+              - paragraph [ref=f4e696]:
+                - strong [ref=f4e697]: Zapisz się do newslettera
+              - paragraph [ref=f4e698]: Otrzymuj informacje o nowych projektach, wydarzeniach i rejsach.
+              - link "Zapisz się" [ref=f4e701] [cursor=pointer]:
+                - /url: mailto:fundacja@kobietyoeanow.pl
+        - generic [ref=f4e702]:
+          - generic [ref=f4e703]:
+            - generic [ref=f4e704]:
+              - paragraph [ref=f4e705]:
+                - strong [ref=f4e706]: Wesprzyj nas
+              - heading "Twoje wsparcie ma znaczenie" [level=2] [ref=f4e707]
+              - paragraph [ref=f4e708]:
+                - strong [ref=f4e709]: Każda darowizna pomaga realizować kolejne projekty Fundacji.
+              - paragraph [ref=f4e710]: Dzięki wsparciu Darczyńców możemy zamieniać pomysły w konkretne działania – organizować rejsy, wydarzenia, spotkania i inicjatywy.
+              - paragraph [ref=f4e711]:
+                - strong [ref=f4e712]: Nie byłoby to możliwe, gdyby nie Wy!
+              - paragraph [ref=f4e713]: Razem tworzymy przestrzeń, która inspiruje i rozwija kolejne pokolenia!
+            - figure [ref=f4e715]
+          - generic [ref=f4e716]:
+            - generic [ref=f4e718]:
+              - paragraph [ref=f4e719]: "01"
+              - paragraph [ref=f4e720]: Przekaż darowiznę
+              - paragraph [ref=f4e721]: Wesprzyj działalność Fundacji jednorazową wpłatą.
+            - generic [ref=f4e723]:
+              - paragraph [ref=f4e724]: "02"
+              - paragraph [ref=f4e725]: Zostań Patronem Fundacji
+              - paragraph [ref=f4e726]: Regularnym wsparciem pomagasz rozwijać kolejne projekty Fundacji.
+            - generic [ref=f4e728]:
+              - paragraph [ref=f4e729]: "03"
+              - paragraph [ref=f4e730]: Zostań Sponsorem
+              - paragraph [ref=f4e731]: Wesprzyj działalność Fundacji finansowo lub rzeczowo i pomóż realizować kolejne przedsięwzięcia.
+      - generic [ref=f4e732]:
+        - paragraph [ref=f4e733]: Kontakt
+        - heading "Porozmawiajmy" [level=2] [ref=f4e734]
+        - paragraph [ref=f4e735]: Masz pytania? Chcesz nawiązać współpracę, dołączyć do naszych działań lub dowiedzieć się więcej?
+        - generic [ref=f4e736]:
+          - generic [ref=f4e737]:
+            - paragraph [ref=f4e738]: e-mail
+            - paragraph [ref=f4e739]:
+              - link "fundacja@kobietyoceanow.pl" [ref=f4e740] [cursor=pointer]:
+                - /url: mailto:fundacja@kobietyoceanow.pl
+            - paragraph [ref=f4e741]: telefon
+            - paragraph [ref=f4e742]:
+              - link "+48 606 715 125" [ref=f4e743] [cursor=pointer]:
+                - /url: tel:+48 606 715 125
+            - paragraph [ref=f4e744]: adres Fundacji
+            - paragraph [ref=f4e745]: Kwiatowa 28 A80-180 Kowale
+            - paragraph [ref=f4e746]: Numer konta
+            - paragraph [ref=f4e747]: PKO Bank Polski PL 55 1020 1909 0000 3202 0332 5925
+            - paragraph [ref=f4e748]: media społecznościowe
+            - list [ref=f4e749]:
+              - listitem [ref=f4e750]:
+                - link "Facebook" [ref=f4e751] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61591292836126
+              - listitem [ref=f4e755]:
+                - link "Instagram" [ref=f4e756] [cursor=pointer]:
+                  - /url: https://www.instagram.com/kobiety.oceanow/
+              - listitem [ref=f4e760]:
+                - link "YouTube" [ref=f4e761] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@KobietyOceanow
+          - generic [ref=f4e765]:
+            - paragraph
+            - paragraph [ref=f4e766]: Nie pytaj, czy dasz radę.Zapytaj, od czego zacząć.
+    - paragraph
+    - contentinfo [ref=f4e767]:
+      - contentinfo [ref=f4e768]:
+        - generic [ref=f4e771]:
+          - generic [ref=f4e772]:
+            - generic [ref=f4e773]:
+              - link "O Patronce" [ref=f4e774] [cursor=pointer]:
+                - /url: /#o-patronce
+              - link "O Nas" [ref=f4e775] [cursor=pointer]:
+                - /url: /#o-nas
+              - link "Z nami" [ref=f4e776] [cursor=pointer]:
+                - /url: /#z-nami
+              - link "Dziennik" [ref=f4e777] [cursor=pointer]:
+                - /url: /#dziennik
+              - link "Aktualności" [ref=f4e778] [cursor=pointer]:
+                - /url: /#aktualnosci
+              - link "Rejs" [ref=f4e779] [cursor=pointer]:
+                - /url: /#rejs
+              - link "Partnerzy" [ref=f4e780] [cursor=pointer]:
+                - /url: /#partnerzy
+              - link "Dołącz" [ref=f4e781] [cursor=pointer]:
+                - /url: /#dolacz
+              - link "Wesprzyj" [ref=f4e782] [cursor=pointer]:
+                - /url: /#wesprzyj
+              - link "Kontakt" [ref=f4e783] [cursor=pointer]:
+                - /url: /#kontakt
+            - generic [ref=f4e1058]:
+              - link "Statut" [ref=f4e1059] [cursor=pointer]:
+                - /url: /statut/
+              - link "Polityka prywatności" [ref=f4e1060] [cursor=pointer]:
+                - /url: /polityka-prywatnosci/
+          - generic [ref=f4e1062]:
+            - generic [ref=f4e1063]: © 2026 · Wszystkie prawa zastrzeżone
+            - generic [ref=f4e1064]: Est. 2026

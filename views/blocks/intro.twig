@@ -10,16 +10,11 @@
 <div class="{{classes}}" style="margin-top: calc(var(--wp--preset--spacing--60) * -1);">
         <div class="relative overflow-hidden">
                 <section id="top" class="relative  text-white bg-foreground  min-h-[50vw] flex">
-                        <img src="{{ get_image(fields.background_image).src }}" class="absolute inset-0  w-auto
+                        <img src="{{ get_image(fields.background_image).src|esc_url }}" alt="" class="absolute inset-0  w-auto
 lg:w-full  left-1/2 top-1/2 h-[100vh] lg:h-auto -translate-x-1/2 -translate-y-1/2 index-0" style="
     object-fit: cover;
     max-height: 100%;
     object-position: center;" />
-{#
-                        <video width="100%" height="auto" autoplay="" loop="" muted="" playslinline="" class="absolute inset-0  w-auto  lg:w-full  left-1/2 h-[100vh] lg:h-auto -translate-x-1/2" style="
-                                                                "><source src="/wp-content/uploads/2026/07/download_20260708_143047_0000.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-                                                                #}
-
                         <div class="absolute inset-0 bg-gradient-to-b from-[#00173B]/60 via-[#00173B]/20
 to-[#00173B]/65 index-2"></div>
 
@@ -313,31 +308,31 @@ lg:pt-0 lg:pb-16 flex flex-col lg:flex-row lg:flex-row-reverse justify-between h
                                                         <div class="inline-flex items-center gap-4">
                                                                 <div class="w-10 h-px bg-[#c9a96e]"></div>
                                                                 <span class="text-xs lg:text-sm  uppercase text-[#c9a96e] tracking-[0.22em]" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">
-                                                                        {{ fields.pre_headline }}
+                                                                        {{ fields.pre_headline|e }}
                                                                 </span>
                                                         </div>
                                                         <h1 class="mt-5 font-light leading-[0.95]
 tracking-tighter mb-8 text-white text-2xl md:text-7xl" style="font-family: Barlow, sans-serif; font-weight: 300;">
                                                                 <span class="block font-medium">
-                                                                        {{ fields.headline|replace({'<em>': '<em class="text-[#c9a96e]">'}) }}
+                                                                        {{ fields.headline|wp_kses_post|replace({'<em>': '<em class="text-[#c9a96e]">'}) }}
                                                                 </span>
                                                         </h1>
                                                         <p class="text-base lg:text-xl text-white
 leading-relaxed font-light mb-10">
-                                                                {{ fields.text }}
+                                                                {{ fields.text|wp_kses_post }}
                                                         </p>
                                                         <div class="flex flex-wrap gap-6 lg:gap-8 items-center">
                                                                 {% if fields.button_primary %}
-                                                                        <a href="{{ fields.button_primary.url }}" class="group relative lg:px-10 lg:px-12 lg:py-4 text-[#00173B] text-sm tracking-[0.22em] lg:tracking-[0.32em] uppercase overflow-hidden font-semibold pb-1 border-b-1 border-transparent" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">
+                                                                        <a href="{{ fields.button_primary.url|esc_url }}" class="group relative lg:px-10 lg:px-12 lg:py-4 text-[#00173B] text-sm tracking-[0.22em] lg:tracking-[0.32em] uppercase overflow-hidden font-semibold pb-1 border-b-1 border-transparent" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">
                                                                                 <div class="absolute inset-0
 index-0 bg-[#c9a96e] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
 <span class="relative
-group-hover:text-white transition-colors duration-500 index-1">{{ fields.button_primary.title }}</span>
+group-hover:text-white transition-colors duration-500 index-1">{{ fields.button_primary_label|default(fields.button_primary.title)|e }}</span>
                                                                         </a>
                                                                 {% endif %}
                                                                 {% if fields.button_secondary %}
-                                                                        <a href="{{ fields.button_secondary.url }}" class="text-sm tracking-[0.22em] lg:tracking-[0.32em] uppercase border-b border-[#c9a96e]/70 pb-1 hover:border-[#c9a96e] text-[#c9a96e]/90 hover:text-[#c9a96e] transition-all font-medium" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">
-                                                                                {{ fields.button_secondary.title }}
+                                                                        <a href="{{ fields.button_secondary.url|esc_url }}" class="text-sm tracking-[0.22em] lg:tracking-[0.32em] uppercase border-b border-[#c9a96e]/70 pb-1 hover:border-[#c9a96e] text-[#c9a96e]/90 hover:text-[#c9a96e] transition-all font-medium" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">
+                                                                                {{ fields.button_secondary_label|default(fields.button_secondary.title)|e }}
                                                                         </a>
                                                                 {% endif %}
                                                         </div>
@@ -346,60 +341,33 @@ group-hover:text-white transition-colors duration-500 index-1">{{ fields.button_
                                 </div>
                                 <div class="border-t border-white/10 bg-[#00173B]/60 backdrop-blur-sm pb-12" style="">
                                         <div class="mx-auto max-w-[1400px] grid grid-cols-2 md:grid-cols-4">
-                                                <div class="flex items-center gap-4 px-6 lg:px-10 py-6 lg:pb-12 lg:py-8 border-r border-white/10 ">
+                                                {% set metrics = fields.metrics|default([
+                                                        {value: '3', label: 'Oceany'},
+                                                        {value: '28 696', label: 'Mil morskich'},
+                                                        {value: '1', label: 'Kobieta'},
+                                                        {value: '1', label: 'Historyczny wyczyn'}
+                                                ]) %}
+                                                {% for metric in metrics %}
+                                                <div class="flex items-center gap-4 px-6 lg:px-10 py-6 lg:py-8 {{ not loop.last ? 'border-r' : '' }} border-white/10 {{ loop.index > 2 ? 'border-t md:border-t-0' : '' }} lg:pb-12">
                                                         <div class="shrink-0 opacity-90">
                                                                 <svg viewbox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.25" class="w-12 h-12">
-                                                                        <circle cx="12" cy="12" r="10"></circle>
-                                                                        <ellipse cx="12" cy="12" rx="4" ry="10"></ellipse>
-                                                                        <path d="M2 12h20"></path>
+                                                                        {% if loop.index == 1 %}
+                                                                        <circle cx="12" cy="12" r="10"></circle><ellipse cx="12" cy="12" rx="4" ry="10"></ellipse><path d="M2 12h20"></path>
+                                                                        {% elseif loop.index == 2 %}
+                                                                        <path d="M3 17l4-8 4 4 3-6 4 10M3 17h18M12 3v4"></path>
+                                                                        {% elseif loop.index == 3 %}
+                                                                        <circle cx="12" cy="7" r="4"></circle><path d="M12 11v10M9 18h6"></path>
+                                                                        {% else %}
+                                                                        <circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3"></path>
+                                                                        {% endif %}
                                                                 </svg>
                                                         </div>
                                                         <div>
-                                                                <div class="text-2xl lg:text-3xl font-extralight tabular-nums text-white leading-none tracking-tight" style="font-family: Barlow, sans-serif;">3</div>
-                                                                <div class="text-sm tracking-[0.35em] uppercase text-white/50 mt-1" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">Oceany</div>
+                                                                <div class="text-2xl lg:text-3xl font-extralight tabular-nums text-white leading-none tracking-tight" style="font-family: Barlow, sans-serif;">{{ metric.value|e }}</div>
+                                                                <div class="text-sm tracking-[0.35em] uppercase text-white/50 mt-1" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">{{ metric.label|e }}</div>
                                                         </div>
                                                 </div>
-                                                <div class="flex items-center gap-4 px-6 lg:px-10 py-6 lg:py-8 border-r border-white/10 lg:pb-12">
-                                                        <div class="shrink-0 opacity-90">
-                                                                <svg viewbox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.25" class="w-12 h-12">
-                                                                        <path d="M3 17l4-8 4 4 3-6 4 10"></path>
-                                                                        <path d="M3 17h18"></path>
-                                                                        <path d="M12 3v4"></path>
-                                                                </svg>
-                                                        </div>
-                                                        <div>
-                                                                <div class="text-2xl lg:text-3xl font-extralight tabular-nums text-white leading-none tracking-tight" style="font-family: Barlow, sans-serif;">28 696</div>
-                                                                <div class="text-sm tracking-[0.35em] uppercase text-white/50 mt-1" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">Mil morskich</div>
-                                                        </div>
-                                                </div>
-                                                <div class="flex items-center gap-4 px-6 lg:px-10 py-6 lg:py-8 border-r border-white/10 border-t md:border-t-0 border-white/10 lg:pb-12">
-                                                        <div class="shrink-0 opacity-90">
-                                                                <svg viewbox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.25" class="w-12 h-12">
-                                                                        <circle cx="12" cy="7" r="4"></circle>
-                                                                        <path d="M12 11v10M9 18h6"></path>
-                                                                </svg>
-                                                        </div>
-                                                        <div>
-                                                                <div class=" lg:text-3xl font-extralight tabular-nums text-white leading-none tracking-tight" style="font-family: Barlow, sans-serif;">1</div>
-                                                                <div class="text-sm tracking-[0.35em] uppercase text-white/50 mt-1" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">Kobieta</div>
-                                                        </div>
-                                                </div>
-                                                <div class="flex items-center gap-4 px-6 lg:px-10 py-6 lg:py-8  border-t md:border-t-0 border-white/10 lg:pb-12">
-                                                        <div class="shrink-0 opacity-90">
-                                                                <svg viewbox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="1.25" class="w-12 h-12">
-                                                                        <circle cx="12" cy="12" r="10"></circle>
-                                                                        <circle cx="12" cy="12" r="3"></circle>
-                                                                        <line x1="12" y1="2" x2="12" y2="5"></line>
-                                                                        <line x1="12" y1="19" x2="12" y2="22"></line>
-                                                                        <line x1="2" y1="12" x2="5" y2="12"></line>
-                                                                        <line x1="19" y1="12" x2="22" y2="12"></line>
-                                                                </svg>
-                                                        </div>
-                                                        <div>
-                                                                <div class="text-2xl lg:text-3xl font-extralight tabular-nums text-white leading-none tracking-tight" style="font-family: Barlow, sans-serif;">1</div>
-                                                                <div class="text-sm tracking-sm uppercase text-white/50 mt-1" style="font-family: &quot;Barlow Condensed&quot;, sans-serif;">Historyczny wyczyn</div>
-                                                        </div>
-                                                </div>
+                                                {% endfor %}
                                         </div>
                                 </div>
                         </div>

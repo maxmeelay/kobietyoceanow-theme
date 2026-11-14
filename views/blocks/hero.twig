@@ -7,10 +7,10 @@
   Mode: auto
   SupportsMode: false
 #}
-<div class="{{classes}}">
-        <div class="max-w-[1100px] mx-auto">
-                <a href="/" class="text-[0.6rem] tracking-[0.3em] uppercase text-silver hover:text-accent">← Strona główna</a>
-                <span class="eyebrow text-accent block mt-8 mb-4">{{ fields.pre_headline}}</span>
-                <h1 class="font-light leading-[1.02] tracking-tight mt-0 mb-10">{{ fields.headline|replace({'<em>': '<em class="text-[#c9a96e]">'}) }}</h1>
-        </div>
+<div class="{{ classes }}">
+	<div class="max-w-[1100px] mx-auto">
+		<a href="{{ ko_home_url()|esc_url }}" class="text-[0.6rem] tracking-[0.3em] uppercase text-silver hover:text-accent">← {{ fields.home_label|e }}</a>
+		<span class="eyebrow text-accent block mt-8 mb-4">{{ fields.pre_headline|e }}</span>
+		<h1 class="font-light leading-[1.02] tracking-tight mt-0 mb-10">{{ fields.headline|wp_kses_post|replace({'<em>': '<em class="text-[#c9a96e]">'}) }}</h1>
+	</div>
 </div>

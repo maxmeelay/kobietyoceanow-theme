@@ -1,7 +1,7 @@
 {
     "ID": 452,
     "key": "group_6a6df59088d15",
-    "title": "Block \/ Intro",
+    "title": "Block / Intro",
     "fields": [
         {
             "ID": 1054,
@@ -13,7 +13,7 @@
             "type": "image",
             "value": null,
             "menu_order": 0,
-            "instructions": "",
+            "instructions": "Decorative background image. Polylang Free manual guidance: copy this value into the translated block.",
             "required": 0,
             "id": "",
             "class": "",
@@ -48,7 +48,7 @@
             "type": "text",
             "value": null,
             "menu_order": 1,
-            "instructions": "",
+            "instructions": "Polylang Free manual guidance: translate independently in each page translation.",
             "required": 0,
             "id": "",
             "class": "",
@@ -78,7 +78,7 @@
             "type": "textarea",
             "value": null,
             "menu_order": 2,
-            "instructions": "",
+            "instructions": "Allows em and br only; sanitized before output. Polylang Free manual guidance: translate independently in each page translation.",
             "required": 0,
             "id": "",
             "class": "",
@@ -108,7 +108,7 @@
             "type": "textarea",
             "value": null,
             "menu_order": 3,
-            "instructions": "",
+            "instructions": "Allows em and br only; sanitized before output. Polylang Free manual guidance: translate independently in each page translation.",
             "required": 0,
             "id": "",
             "class": "",
@@ -138,7 +138,7 @@
             "type": "link",
             "value": null,
             "menu_order": 4,
-            "instructions": "",
+            "instructions": "Polylang Free manual guidance: copy this value to the translated block (; use the translated internal page where available).",
             "required": 0,
             "id": "",
             "class": "",
@@ -164,7 +164,7 @@
             "type": "link",
             "value": null,
             "menu_order": 5,
-            "instructions": "",
+            "instructions": "Polylang Free manual guidance: copy this value to the translated block (; use the translated internal page where available).",
             "required": 0,
             "id": "",
             "class": "",
@@ -179,6 +179,82 @@
             "allow_in_bindings": 0,
             "_name": "button_secondary",
             "_valid": 1
+        },
+        {
+            "key": "field_ko_intro_primary_label",
+            "label": "Primary button label",
+            "name": "button_primary_label",
+            "type": "text",
+            "instructions": "Polylang Free manual guidance: translate independently in each page translation.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_ko_intro_secondary_label",
+            "label": "Secondary button label",
+            "name": "button_secondary_label",
+            "type": "text",
+            "instructions": "Polylang Free manual guidance: translate independently in each page translation.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_cf8fd5cca3c1",
+            "label": "Metrics",
+            "name": "metrics",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "sub_fields": [
+                {
+                    "key": "field_f5286d1b8595",
+                    "label": "Value",
+                    "name": "value",
+                    "type": "text",
+                    "instructions": "Polylang Free manual guidance: copy this value to the translated block (shared fact).",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "key": "field_8d9a4feaeba9",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "Polylang Free manual guidance: translate independently in each page translation.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                }
+            ],
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add item"
         }
     ],
     "location": [
@@ -186,7 +262,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/intro"
+                "value": "acf/intro"
             }
         ]
     ],

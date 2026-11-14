@@ -1,0 +1,176 @@
+{
+    "ID": 2003,
+    "key": "group_1f838027ed2a5",
+    "title": "Block / Mission",
+    "fields": [
+        {
+            "key": "field_9f9d8551ff20",
+            "label": "Date range",
+            "name": "date_range",
+            "type": "text",
+            "instructions": "Polylang Free manual guidance: copy this value to the translated block (shared dates).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_00f8daaf3d8b",
+            "label": "Headline",
+            "name": "headline",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_1fc5d3c0923e",
+            "label": "Emphasized headline",
+            "name": "headline_emphasis",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_6b9ad3fc9780",
+            "label": "Summary",
+            "name": "summary",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_045c342e2699",
+            "label": "Timeline",
+            "name": "timeline",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "sub_fields": [
+                {
+                    "key": "field_0c35c809be3c",
+                    "label": "Route code",
+                    "name": "code",
+                    "type": "text",
+                    "instructions": "Polylang Free manual guidance: copy this value to the translated block.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "key": "field_ce8b2b53515e",
+                    "label": "Year",
+                    "name": "year",
+                    "type": "text",
+                    "instructions": "Polylang Free manual guidance: copy this value to the translated block.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "key": "field_24b1e6191a85",
+                    "label": "Milestone label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                },
+                {
+                    "key": "field_611457724456",
+                    "label": "Location",
+                    "name": "location",
+                    "type": "text",
+                    "instructions": "Polylang Free manual guidance: copy this value to the translated block (; translate only when the localized place name differs).",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    }
+                }
+            ],
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add item"
+        },
+        {
+            "key": "field_0af73ef4cf40",
+            "label": "Quotation",
+            "name": "quote",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 3,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/mission"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Polylang Free uses manual page translations; copy block content and edit values independently by language.",
+    "show_in_rest": 0,
+    "_valid": true
+}
