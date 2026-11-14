@@ -62,6 +62,46 @@ add_filter('timber/twig', function ($twig) {
 });
 
 add_filter('render_block', function ($content, $block) {
+    if (($block['blockName'] ?? '') !== 'core/post-template'
+        || (!is_page([511, 547]) && !is_post_type_archive('press'))) {
+        return $content;
+    }
+
+    $content = preg_replace_callback('/<li\b([^>]*)>(.*?)<\/li>/s', function ($matches) {
+        if (!preg_match('/\bpost-(\d+)\b/', $matches[1], $post_match)) {
+            return $matches[0];
+        }
+
+        $post_id = (int) $post_match[1];
+        $post = get_post($post_id);
+        if (!$post instanceof WP_Post) {
+            return $matches[0];
+        }
+
+        $permalink = get_permalink($post);
+        $image = get_the_post_thumbnail($post_id, 'large', [
+            'class' => 'ko-archive-card__image',
+            'loading' => 'lazy',
+        ]);
+        $image_markup = $image ?: '<span class="ko-archive-card__image-placeholder" aria-hidden="true"></span>';
+        $excerpt = wp_trim_words(wp_strip_all_tags(get_the_excerpt($post)), 26, '…');
+
+        return '<li' . $matches[1] . '><article class="ko-archive-card">'
+            . '<a class="ko-archive-card__media" href="' . esc_url($permalink) . '">' . $image_markup . '</a>'
+            . '<h2 class="ko-archive-card__title"><a href="' . esc_url($permalink) . '">' . esc_html(get_the_title($post)) . '</a></h2>'
+            . '<p class="ko-archive-card__excerpt">' . esc_html($excerpt) . '</p>'
+            . '<a class="ko-archive-card__read-more" href="' . esc_url($permalink) . '">Czytaj więcej<span aria-hidden="true"> →</span></a>'
+            . '</article></li>';
+    }, $content);
+
+    if (is_string($content)) {
+        $content = preg_replace('/(<ul\b)([^>]*class=["\'])([^"\']*)(["\'])/', '$1$2$3 ko-archive-grid$4', $content, 1);
+    }
+
+    return $content;
+}, 20, 2);
+
+add_filter('render_block', function ($content, $block) {
     if (!function_exists('pll_current_language')
         || pll_current_language('slug') !== 'en'
         || !is_front_page()) {
