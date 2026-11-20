@@ -11,3 +11,13 @@ html, body {
         font-size: 4.5rem;
     }
 }
+
+@media (max-width: 991px) {
+    header nav .wp-block-navigation__container {
+        flex-direction: column;
+    }
+
+    header .wp-block-social-links {
+        display: none;
+    }
+}
