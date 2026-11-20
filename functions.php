@@ -45,6 +45,38 @@ add_filter('acf/settings/load_json', function ($paths) {
     return $paths;
 });
 
+add_action('init', function () {
+    // ACF may register this post type from its saved configuration. Keep the
+    // theme self-contained when that configuration has not been imported yet.
+    if (post_type_exists('press')) {
+        return;
+    }
+
+    register_post_type('press', [
+        'labels' => [
+            'name' => 'Prasa',
+            'singular_name' => 'Publikacja prasowa',
+            'menu_name' => 'Prasa',
+            'all_items' => 'Wszystkie publikacje prasowe',
+            'add_new_item' => 'Dodaj publikację prasową',
+            'edit_item' => 'Edytuj publikację prasową',
+            'view_item' => 'Zobacz publikację prasową',
+            'search_items' => 'Szukaj publikacji prasowych',
+            'not_found' => 'Nie znaleziono publikacji prasowych',
+            'not_found_in_trash' => 'Nie znaleziono publikacji prasowych w koszu',
+        ],
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'rewrite' => [
+            'slug' => 'press',
+            'with_front' => true,
+        ],
+        'menu_icon' => 'dashicons-media-document',
+        'supports' => ['title', 'editor', 'excerpt', 'thumbnail', 'custom-fields'],
+    ]);
+}, 20);
+
 add_filter('timber/twig', function ($twig) {
     $twig->addFunction(new \Twig\TwigFunction('ko_home_url', function () {
         return function_exists('pll_home_url') ? pll_home_url() : home_url('/');
@@ -60,6 +92,46 @@ add_filter('timber/twig', function ($twig) {
 
     return $twig;
 });
+
+add_filter('render_block', function ($content, $block) {
+    if (($block['blockName'] ?? '') !== 'core/post-template'
+        || (!is_page([511, 547]) && !is_post_type_archive('press'))) {
+        return $content;
+    }
+
+    $content = preg_replace_callback('/<li\b([^>]*)>(.*?)<\/li>/s', function ($matches) {
+        if (!preg_match('/\bpost-(\d+)\b/', $matches[1], $post_match)) {
+            return $matches[0];
+        }
+
+        $post_id = (int) $post_match[1];
+        $post = get_post($post_id);
+        if (!$post instanceof WP_Post) {
+            return $matches[0];
+        }
+
+        $permalink = get_permalink($post);
+        $image = get_the_post_thumbnail($post_id, 'large', [
+            'class' => 'ko-archive-card__image',
+            'loading' => 'lazy',
+        ]);
+        $image_markup = $image ?: '<span class="ko-archive-card__image-placeholder" aria-hidden="true"></span>';
+        $excerpt = wp_trim_words(wp_strip_all_tags(get_the_excerpt($post)), 26, '…');
+
+        return '<li' . $matches[1] . '><article class="ko-archive-card">'
+            . '<a class="ko-archive-card__media" href="' . esc_url($permalink) . '">' . $image_markup . '</a>'
+            . '<h2 class="ko-archive-card__title"><a href="' . esc_url($permalink) . '">' . esc_html(get_the_title($post)) . '</a></h2>'
+            . '<p class="ko-archive-card__excerpt">' . esc_html($excerpt) . '</p>'
+            . '<a class="ko-archive-card__read-more" href="' . esc_url($permalink) . '">Czytaj więcej<span aria-hidden="true"> →</span></a>'
+            . '</article></li>';
+    }, $content);
+
+    if (is_string($content)) {
+        $content = preg_replace('/(<ul\b)([^>]*class=["\'])([^"\']*)(["\'])/', '$1$2$3 ko-archive-grid$4', $content, 1);
+    }
+
+    return $content;
+}, 20, 2);
 
 add_filter('render_block', function ($content, $block) {
     if (!function_exists('pll_current_language')

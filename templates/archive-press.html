@@ -1,0 +1,31 @@
+<!-- wp:group {"tagName":"main","className":"ko-press-archive","layout":{"type":"constrained","contentSize":"1400px"}} -->
+<main class="wp-block-group ko-press-archive">
+    <!-- wp:heading {"level":1,"className":"ko-press-archive__title"} -->
+    <h1 class="wp-block-heading ko-press-archive__title">Prasa</h1>
+    <!-- /wp:heading -->
+
+    <!-- wp:paragraph {"className":"ko-press-archive__intro"} -->
+    <p class="ko-press-archive__intro">Publikacje Fundacji Kobiety Oceanów w mediach.</p>
+    <!-- /wp:paragraph -->
+
+    <!-- wp:query {"query":{"inherit":true},"layout":{"type":"default"}} -->
+    <div class="wp-block-query">
+        <!-- wp:post-template {"className":"alignfull","layout":{"type":"grid","columnCount":3}} -->
+        <!-- wp:post-title {"isLink":true} /-->
+        <!-- /wp:post-template -->
+
+        <!-- wp:query-no-results -->
+        <!-- wp:paragraph -->
+        <p>Brak publikacji prasowych.</p>
+        <!-- /wp:paragraph -->
+        <!-- /wp:query-no-results -->
+
+        <!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
+        <!-- wp:query-pagination-previous /-->
+        <!-- wp:query-pagination-numbers /-->
+        <!-- wp:query-pagination-next /-->
+        <!-- /wp:query-pagination -->
+    </div>
+    <!-- /wp:query -->
+</main>
+<!-- /wp:group -->
