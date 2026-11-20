@@ -45,38 +45,6 @@ add_filter('acf/settings/load_json', function ($paths) {
     return $paths;
 });
 
-add_action('init', function () {
-    // ACF may register this post type from its saved configuration. Keep the
-    // theme self-contained when that configuration has not been imported yet.
-    if (post_type_exists('press')) {
-        return;
-    }
-
-    register_post_type('press', [
-        'labels' => [
-            'name' => 'Prasa',
-            'singular_name' => 'Publikacja prasowa',
-            'menu_name' => 'Prasa',
-            'all_items' => 'Wszystkie publikacje prasowe',
-            'add_new_item' => 'Dodaj publikację prasową',
-            'edit_item' => 'Edytuj publikację prasową',
-            'view_item' => 'Zobacz publikację prasową',
-            'search_items' => 'Szukaj publikacji prasowych',
-            'not_found' => 'Nie znaleziono publikacji prasowych',
-            'not_found_in_trash' => 'Nie znaleziono publikacji prasowych w koszu',
-        ],
-        'public' => true,
-        'show_in_rest' => true,
-        'has_archive' => true,
-        'rewrite' => [
-            'slug' => 'press',
-            'with_front' => true,
-        ],
-        'menu_icon' => 'dashicons-media-document',
-        'supports' => ['title', 'editor', 'excerpt', 'thumbnail', 'custom-fields'],
-    ]);
-}, 20);
-
 add_filter('timber/twig', function ($twig) {
     $twig->addFunction(new \Twig\TwigFunction('ko_home_url', function () {
         return function_exists('pll_home_url') ? pll_home_url() : home_url('/');
@@ -95,7 +63,7 @@ add_filter('timber/twig', function ($twig) {
 
 add_filter('render_block', function ($content, $block) {
     if (($block['blockName'] ?? '') !== 'core/post-template'
-        || (!is_page([511, 547]) && !is_post_type_archive('press'))) {
+        || !is_page([511, 547, 1498])) {
         return $content;
     }
 
