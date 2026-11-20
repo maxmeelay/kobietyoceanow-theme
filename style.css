@@ -57,14 +57,10 @@ html, body {
 }
 
 :is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card__title {
-    display: -webkit-box;
-    min-height: 3.2em;
-    overflow: hidden;
+    font-weight: 700;
     margin: 1.25rem 0 0.75rem;
     font-size: clamp(1.15rem, 1.5vw, 1.45rem);
     line-height: 1.35;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
 }
 
 :is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card__title a {
@@ -74,20 +70,32 @@ html, body {
 
 :is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card__excerpt {
     display: -webkit-box;
-    min-height: 6.4em;
+    min-height: 5.6em;
     overflow: hidden;
     margin: 0 0 1.25rem;
+    font-size: 0.9rem;
     line-height: 1.6;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
 }
 
 :is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card__read-more {
     align-self: flex-start;
     margin-top: auto;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    font-size: 0.75rem;
     font-weight: 700;
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
+    letter-spacing: 0.3em;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-color 0.2s ease;
+}
+
+:is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card:hover .ko-archive-card__read-more,
+:is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card__read-more:focus-visible {
+    border-bottom-color: var(--wp--preset--color--accent, currentColor);
 }
 
 @media (max-width: 900px) {
@@ -100,10 +108,6 @@ html, body {
     :is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-grid {
         grid-template-columns: minmax(0, 1fr);
         gap: 2.5rem;
-    }
-
-    :is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card__title {
-        min-height: 0;
     }
 
     :is(body.page-id-511, body.page-id-547, body.page-id-1498) .ko-archive-card__excerpt {
