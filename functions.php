@@ -86,11 +86,11 @@ add_filter('render_block', function ($content, $block) {
         $image_markup = $image ?: '<span class="ko-archive-card__image-placeholder" aria-hidden="true"></span>';
         $excerpt = wp_trim_words(wp_strip_all_tags(get_the_excerpt($post)), 26, '…');
 
-        return '<li' . $matches[1] . '><article class="ko-archive-card">'
+        return '<li' . $matches[1] . '><article class="ko-archive-card group">'
             . '<a class="ko-archive-card__media" href="' . esc_url($permalink) . '">' . $image_markup . '</a>'
             . '<h2 class="ko-archive-card__title"><a href="' . esc_url($permalink) . '">' . esc_html(get_the_title($post)) . '</a></h2>'
             . '<p class="ko-archive-card__excerpt">' . esc_html($excerpt) . '</p>'
-            . '<a class="ko-archive-card__read-more" href="' . esc_url($permalink) . '">Czytaj więcej<span aria-hidden="true"> →</span></a>'
+            . '<a class="ko-archive-card__read-more wp-block-read-more" href="' . esc_url($permalink) . '" target="_self">Zobacz wpis<span class="screen-reader-text">: ' . esc_html(get_the_title($post)) . '</span></a>'
             . '</article></li>';
     }, $content);
 
