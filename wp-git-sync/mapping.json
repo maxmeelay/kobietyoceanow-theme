@@ -1,6 +1,6 @@
 {
     "branch": "main",
-    "generated_at": "2026-11-13T07:35:01+00:00",
+    "generated_at": "2026-11-20T03:27:59+00:00",
     "github_owner": "maxmeelay",
     "github_repo": "kobietyoceanow-theme",
     "items": {
@@ -971,6 +971,17 @@
             "post_title": "Do zobaczenia na \"Darze Pomorza\" 14.11.2026 - Bractwo Kaphornowc\u00f3w",
             "post_type": "post",
             "slug": "do-zobaczenia-na-darze-pomorza-14-11-2026"
+        },
+        "1498": {
+            "content_path": "page/1498.md",
+            "last_synced_at": "2026-11-20T03:27:59+00:00",
+            "meta_path": "page/1498.meta.json",
+            "permalink": "http://tower-3420:8081/prasa/",
+            "post_id": 1498,
+            "post_path": "page/1498.json",
+            "post_title": "Prasa",
+            "post_type": "page",
+            "slug": "prasa"
         }
     },
     "version": "0.1.2"
